@@ -80,7 +80,62 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
 <!-- <?php print $theme_path; ?> -->
 
+<!-- INTERIOR SEARCH -->
+<section class="search-slider">
 
+    <div class="search-interior">
+
+        <!-- Pay attention to METHOD -->
+        <form id="search" name="form1" method="get" action="https://search.library.cornell.edu">
+
+            <label for="name">Search <span class="search-filter-selected">Library Catalog</span></label>
+
+
+            <div class="filtered-search">
+
+                <input type="text" class="search-homepage" name="q" value="" id="edit_keys" />
+
+                <!--<select name="search_type" id="search_type" size="1" onChange="chgAction()" class="form-control filter">
+
+                    <option value="catalog" selected="selected">Library Catalog</option>
+                    <option value="worldcat">WorldCat</option>
+                    <option value="site">Site Search</option>
+
+                </select>-->
+
+                <div class="filter-search"><span class="active">Library Catalog</span> <span class="glyphicon glyphicon-chevron-down filter-default"></span>
+
+                  <ul id="filter-search-nav">
+                      <li role="listitem"><a href="#" title="">Library Catalog</a></li>
+                      <li role="listitem"><a href="#" title="">WorldCat</a></li>
+                      <li role="listitem"><a href="#" title="">Site Search</a></li>
+                  </ul>
+
+              </div>
+
+              
+
+                <!--a class="filter" href="#">LAW LIBRARY <span class="caret-icon">></span></a> -->
+                <button type="submit" class="submit-search" href="#">
+                  <span class="glyphicon glyphicon-search"></span>
+                </button>
+
+            </div>
+
+            <ul class="external-search">
+              <li><a href="https://www.library.cornell.edu/myacct">My Library Account</a> / </li>
+              <li><a href="http://guides.library.cornell.edu/onlinelegalresources">Databases</a> / </li>
+              <li><a href="http://guides.library.cornell.edu/LAW">Research Guides</a></li>
+            </ul>
+        </form>         
+    
+    </div>
+
+</section>
+
+<a href="#" class="close-search">
+  <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+</a>
 
 <header class="interior">
 
@@ -158,7 +213,12 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
             </li>
 
             <li>
-                <li><a href="#"><span aria-hidden="true" class="glyphicon glyphicon-search"></span></a></li>
+               <a class="show-hide-search" title="Search our Site" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+           </li>
+
+                
+
+
             </li>
 
         </ul>
@@ -283,15 +343,8 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
 
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
-    <script type="text/javascript" src="js/utils.js"></script>
+  
 
-    <script type="text/javascript">
-
-        $( '#nav li:has('.wrapper')' ).doubleTapToGo();
-
-    </script>
 		
         

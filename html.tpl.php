@@ -56,8 +56,8 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
+      <script type="text/javascript" src="<?php print $theme_path; ?>js/doubletaptogo.js"></script>
+    <script type="text/javascript" src="<?php print $theme_path; ?>js/utils.js"></script>
     </body>
 </html>
 
