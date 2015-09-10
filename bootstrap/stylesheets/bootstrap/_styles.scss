@@ -41,42 +41,13 @@ a {
 }
 
 
-ul {
-	list-style-type: none !important;
-}
-
-// FONT ADQUIRED FROM https://github.com/luopio/dottedlandscape
-
-@font-face {
-	font-family: 'HeroRegular';
-	src: url('../fonts/hero-webfont.eot');
-	src: url('../fonts/hero-webfont.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/hero-webfont.woff') format('woff'),
-	url('../fonts/hero-webfont.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-
-}
-
-@font-face {
-	font-family: 'HeroLight';
-	src: url('../fonts/hero_light-webfont.eot');
-	src: url('../fonts/hero_light-webfont.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/hero_light-webfont.woff') format('woff'),
-	url('../fonts/hero_light-webfont.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-
 @font-face {
 	font-family: "Glyphicons Halflings";
 	src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
 
-
-
 body {
+
   font-family: Montserrat;
 
 }
@@ -108,11 +79,6 @@ a:hover {
 /*
  ****** Responsive Menu **************
  */
-
-
-
-
-
 
 
 a.sandwich {
@@ -387,11 +353,6 @@ a.sandwich {
 		}
 	}
 }
-
-
-
-
-
 
 
 
@@ -877,12 +838,18 @@ footer {
 }
 
 
-
-
-
-
-
-
+/*#########################################
+#########################################
+#########################################
+#########################################
+#########################################
+#########################################
+#########################################
+#########################################
+#########################################
+#########################################
+#########################################
+#########################################*/
 
 
 .interior {
@@ -912,51 +879,12 @@ footer {
 
 		img {
 
+			display: none;
 			width: 610px;
 			padding-top: 27px;
 			padding-left: 30px;
 		}
 	}
-
-	/*nav {
-
-		margin-left: 150px;
-
-		ul {
-
-			margin-top: 30px;
-			border-top: 1px solid #829da0;
-			border-bottom: 1px solid #829da0;
-			padding: 10px 15px;
-			display: inline-block;
-
-		}
-
-		li {
-
-			display: inline;
-		}
-
-		a {
-
-			font-size: 20px;
-			color: #fff;
-
-			&.active {
-
-				color: $gold;
-			}
-
-		}
-
-		.glyphicon-search {
-
-				font-size: 30px;
-				
-			}
-		
-	}*/
-
 }
 
 .page-content {
@@ -1040,15 +968,16 @@ footer {
 
 }
 
-	.hero {
+.hero {
 
-		position: absolute;
-		top: 0;
-		right: 0;
-		background: url("../images/interior-hero.png") no-repeat right top;
-		width: 461px;
-		height: 394px;
-	}
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url("../images/interior-hero.png") no-repeat right top;
+	width: 461px;
+	height: 394px;
+}
 
 
 /* Extra small devices (phones, up to 480px) */
