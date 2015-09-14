@@ -12,17 +12,12 @@ $( document ).ready(function() {
     //$( '#nav li:has(ul)' ).doubleTapToGo();
     $( '#nav li:has(.wrapper)' ).doubleTapToGo();
 
-    /*$('.sandwich').click(function(e){
+    $('.sandwich').click(function(e){
 
         e.preventDefault();
         $(' #nav ').toggle();
 
-      });*/
-
-
-
-
-
+      });
 
 
     // show/hide search on interior pages

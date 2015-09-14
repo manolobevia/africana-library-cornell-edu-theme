@@ -14,6 +14,7 @@ $gold: #d3b268;
 }
 */
 
+
 body {
 
 	margin: 0;
@@ -48,7 +49,7 @@ a {
 
 body {
 
-  font-family: Montserrat;
+  font-family: Montserrat, Helvetica, sans-serif;
 
 }
 
@@ -83,7 +84,7 @@ a:hover {
 
 a.sandwich {
     
-    width: 3.125em; /* 50 */
+    width: 45px; /* 50 */
     height: 45px; /* 50 */
     text-align: left;
     background-color: #3f3c3a;
@@ -365,16 +366,11 @@ a.sandwich {
 
 
 
-
-
-
-
-
 .highlights {
 
 	margin-top: 30px;
 
-  article {
+  	article {
 
 		border-right: 1px solid #ccced0;
 		padding: 30px;
@@ -516,8 +512,8 @@ footer {
 	nav {
 
 		width: 100%;
-		padding-top: 40px;
-		padding-left: 40px;
+		padding-top: 70px;
+		padding-left: 30px;
 
 		ul {
 
@@ -544,7 +540,7 @@ footer {
 	address {
 
 		width: 100%;
-		padding-left: 40px;
+		padding-left: 30px;
 		padding-bottom: 40px;
 		color: #474f57;
 	}
@@ -552,8 +548,8 @@ footer {
 	.social-links {
 
 		position: absolute;
-		top: 40px;
-		right: 40px;
+		top: 20px;
+		left: 30px;
 
 		a {
 
@@ -574,8 +570,8 @@ footer {
 	.wrapper {
 
 		width: 100%;
-		padding-top: 40px;
-		padding-left: 40px;
+		padding-top: 50px;
+		padding-left: 30px;
 		padding-bottom: 40px;
 
 	}
@@ -609,7 +605,7 @@ footer {
 		padding: 8px 20px;
 		position: absolute;
 		top: 0;
-		right: 40px;
+		left: 30px;
 
 	}
 
@@ -852,9 +848,22 @@ footer {
 #########################################*/
 
 
+.hero {
+
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url("../images/interior-hero.png") no-repeat right top;
+	width: 461px;
+	height: 394px;
+}
+
+
 .interior {
 
-	height: 272px;
+	//height: 272px;
+	height: 160px;
 
 	//background, background-attachment, 
 	//background-clip, background-image, background-origin, 
@@ -874,6 +883,20 @@ footer {
 	background-size: 		cover, cover;
                                              
 
+	.CUL-branding-mobile {
+
+		width: 100%;
+		height: 45px;
+		background-color: #b31b1b;
+
+		img {
+
+			padding-left: 3px;
+			padding-top: 3px;
+		}
+
+	}
+
 
 	.CUL-branding {
 
@@ -881,9 +904,30 @@ footer {
 
 			display: none;
 			width: 610px;
-			padding-top: 27px;
-			padding-left: 30px;
+			padding-top: 18px;
+			padding-left: 5px;
 		}
+	}
+
+	h1 {
+
+		font-size: 18px;
+		color: #fff;
+		margin: 0;
+		padding-top: 10px;
+		padding-left: 10px;
+		opacity: .7;
+	}
+
+	h2 {
+
+		font-size: 30px;
+		color: #fff;
+		margin: 0;
+		padding-top: 5px;
+		padding-left: 10px;
+
+
 	}
 }
 
@@ -893,7 +937,8 @@ footer {
 	.content-item {
 
 		padding-right: 50px;
-		padding-bottom: 150px;
+		padding-bottom: 40px;
+		padding-left: 30px;
 
 		//background-color: red;
 		background-position: 	0 bottom;
@@ -907,7 +952,8 @@ footer {
 
 		.breadcrumbs {
 
-			font-size: 19px;
+			font-size: 16px;
+			padding-top: 20px;
 
 			ul {
 
@@ -916,14 +962,20 @@ footer {
 				li {
 
 					display: inline-block;
+
+					a:hover {
+
+						color: $gray;
+					}
 				}
 			}
 		}
 
-		h2 {
+		h3 {
 
-			font-size: 35px;
-			margin-bottom: 20px;
+			font-size: 32px;
+			margin-top: 0;
+			margin-bottom: 10px;
 			color: $gold;
 			font-family: "Bree Serif";
 
@@ -931,23 +983,23 @@ footer {
 
 		p {
 
-			font-size: 20px;
+			font-size: 1.2em;
 		}
 
 	}
 
 	.side-nav {
 
-		padding-top: 80px;
-		padding-bottom: 80px;
-		padding-left: 70px;
+		padding-top: 10px;
+		padding-left: 30px;
+		padding-bottom: 30px;
 
-		border-left: 1px solid #d2dcdd;
+		border-top: 1px solid #d2dcdd;
 
 
 		h3 {
 
-			font-size: 26px;
+			font-size: 22px;
 			color: $gray;
 			font-family: "Bree Serif";
 
@@ -961,23 +1013,14 @@ footer {
 
 		a {
 
-			font-size: 20px;
+			font-size: 1.2em;
 			color: $green;
 		}
 	}
 
 }
 
-.hero {
 
-	display: none;
-	position: absolute;
-	top: 0;
-	right: 0;
-	background: url("../images/interior-hero.png") no-repeat right top;
-	width: 461px;
-	height: 394px;
-}
 
 
 /* Extra small devices (phones, up to 480px) */

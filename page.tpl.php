@@ -141,20 +141,18 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
     <section class="CUL-branding">
 
-        <img src="<?php print $theme_path; ?>images/cul-africana-logo.svg" />
+        <a href="http://www.cornell.edu"><img src="<?php print $theme_path; ?>images/cul-africana-logo.svg" /></a>
 
     </section>
 
-    <!--<nav>
-        <ul>
-            <li><a href="#">Home /</a></li>
-            <li><a class="active" href="#">About /</a></li>
-            <li><a href="#">Collections /</a></li>
-            <li><a href="#">Reference & Instruction /</a></li>
-            <li><a href="#">Africana Center /</a></li>
-            <li><a href="#"><span aria-hidden="true" class="glyphicon glyphicon-search"></span></a></li>
-        </ul>
-    </nav>-->
+    <section class="CUL-branding-mobile">
+
+        <a href="http://www.cornell.edu"><img src="<?php print $theme_path; ?>images/cu-logo.png" /></a>
+
+    </section>
+
+    <h1><a href="https://www.library.cornell.edu/"></a>Cornell University Library</h1>
+    <h2><a href="/"></a>John Henrik Clarke Africana Library</h2>
 
     <!--Inside Africana / Mission / History / Staff / Library in the Life of Black People  / Contact / Hours-->
 
@@ -216,11 +214,6 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
                <a class="show-hide-search" title="Search our Site" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
            </li>
 
-                
-
-
-            </li>
-
         </ul>
     </nav>
 
@@ -245,11 +238,11 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
                 <li><a href="">Contact / </a></li>
                 <li><a href="">Hours </a></li>-->
                 <li><a href="#">About / </a></li>
-                <li><a href="#">Mission</a></li>
+                <li>Mission</li>
             </ul>
         </nav>
 
-		<h2><?php print $title ?></h2>
+		<h3><?php print $title ?></h3>
         <?php print render($page['content']); ?>
 
         <!-- H2 for headers P for text -->
