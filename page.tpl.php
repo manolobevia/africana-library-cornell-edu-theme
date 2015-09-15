@@ -156,6 +156,8 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
     <!--Inside Africana / Mission / History / Staff / Library in the Life of Black People  / Contact / Hours-->
 
+    <a class="search-icon show-hide-search" title="Search our Site" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+
 
     <a class="sandwich" href="#" title="Show navigation"></a>
 
@@ -274,34 +276,40 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
 </section>
 
-<footer>
+<footer class="africana">
 
-    <nav>
+    <div class="wrapper">
 
-        <ul>
-            <li><a class="active" href="#">Home / </a></li>
-            <li><a href="#">About / </a></li>
-            <li><a href="#">Collections / </a></li>
-            <li><a href="#">Reference & Instruction / </a></li>
-            <li><a href="#">Africana Center</a></li>
+        <nav>
 
-        </ul>
+            <ul>
+                <li><a class="active" href="#">Home / </a></li>
+                <li><a href="#">About / </a></li>
+                <li><a href="#">Collections / </a></li>
+                <li><a href="#">Reference & Instruction / </a></li>
+                <li><a href="#">Africana Center</a> / </li>
+                <li><a href="#">Contact Us</a></li>
 
-    </nav>
+            </ul>
 
-     <address>
-        John Henrik Clarke Africana Library <a href="https://www.google.com/maps/place/310+Triphammer+Rd,+Ithaca,+NY+14850/@42.457342,-76.483041,17z/data=!3m1!4b1!4m2!3m1!1s0x89d08223058b0ccd:0x9f116572ce7f1fa"><span class="glyphicon glyphicon-map-marker"></span></a><br />
-        Cornell University<br />
-        310 Triphammer Road<br />
-        Ithaca, NY 14853<br />
-        <a href="tel:6072553822">607-255-3822 </a> 
-    </address> 
+        </nav>
 
-    <div class="social-links">
+         <address>
+            John Henrik Clarke Africana Library <a href="https://www.google.com/maps/place/310+Triphammer+Rd,+Ithaca,+NY+14850/@42.457342,-76.483041,17z/data=!3m1!4b1!4m2!3m1!1s0x89d08223058b0ccd:0x9f116572ce7f1fa"><span class="glyphicon glyphicon-map-marker"></span></a><br />
+            Cornell University<br />
+            310 Triphammer Road<br />
+            Ithaca, NY 14853<br />
+            <a href="tel:6072553822">607-255-3822 </a> 
+        </address> 
 
-        <a href="#"><img src="<?php print $theme_path; ?>images/facebook-icon.png"></a>
-        <a href="#"><img src="<?php print $theme_path; ?>images/share-icon.png"></a>
+        
 
+        <div class="social-links">
+
+            <a href="#"><img src="<?php print $theme_path; ?>images/facebook-icon.png"></a>
+            <a href="#"><img src="<?php print $theme_path; ?>images/share-icon.png"></a>
+
+        </div>
     </div>
 
 </footer>
@@ -310,7 +318,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
     <div class="wrapper">
 
-    CORNELL UNIVERSITY LIBRARIES
+    <a href="#">CORNELL UNIVERSITY LIBRARIES</a>
 
     <nav>
         <p><strong>Library Resources:</strong></p>
@@ -327,7 +335,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
     </nav>
 
-    <p>©2015 Cornell University Library / <a href="tel:6072554144">(607) 255-4144 </a>  / Privacy</p>
+    <p>©2015 Cornell University Library / <a href="tel:6072554144">(607) 255-4144 </a>  / <a href="#">Privacy</a></p>
 
     <a class="btn-give" href="#">GIVE TO THE LIBRARY</a>
 

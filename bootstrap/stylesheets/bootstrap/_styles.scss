@@ -32,7 +32,15 @@ body {
 a {
 
 	color: $green;
+
+	&:hover {
+
+		color: $gray;
+
+	}
 }
+
+
 
 
 .row {
@@ -81,6 +89,26 @@ a:hover {
  ****** Responsive Menu **************
  */
 
+a.search-icon.show-hide-search {
+    
+    width: 45px; /* 50 */
+    height: 45px; /* 50 */
+    text-align: left;
+    background-color: #3f3c3a;
+    position: relative;
+    float: right;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 45px;
+    z-index: 100;
+    border-right: 1px solid $gray;
+    font-size: 24px;
+    color: #fff;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
 
 a.sandwich {
     
@@ -94,7 +122,7 @@ a.sandwich {
     position: absolute;
     top: 0;
     right: 0;
-    z-index: 99999;
+    z-index: 100;
 
 
  	&:before,
@@ -114,6 +142,10 @@ a.sandwich {
     }
 }
 
+a.show-hide-search {
+
+	display: none;
+}
 
 #nav {
 
@@ -122,7 +154,7 @@ a.sandwich {
 	width: 100%;
 	display: none;
 	background-color: #fff;
-	z-index: 99999;
+	z-index: 100;
 
 	
 
@@ -176,7 +208,7 @@ a.sandwich {
 			  	display: none;
 			  	padding-bottom: 10px;
 			  	padding-top: 10px;
-			  	z-index: 9999;
+			  	z-index: 95;
 
 			
 
@@ -283,7 +315,7 @@ a.sandwich {
 				  	display: block;
 				  	position: absolute;
 				  	top: 30px;
-				  	z-index: 9999;
+				  	z-index: 95;
 				}
 			}
 
@@ -534,7 +566,8 @@ footer {
 				display: inline-block;
 
 				a {
-					color: #474f57;
+
+					color: $green;
 
 					&.active  {
 
@@ -649,10 +682,10 @@ footer {
 
     display: none;
 
-    height: 210px;
+    height: 250px;
     width: 100%;
-    background-color: #b11d22;
-    z-index: 99999;
+    background-color: #295259;
+    z-index: 105;
     position: absolute;
     top: 0;
     left: 0;
@@ -668,7 +701,7 @@ footer {
     position: absolute;
     top: 10px;
     right: 20px;
-    z-index: 99999;
+    z-index: 110;
 
     &:hover, &:focus {
 
@@ -685,7 +718,7 @@ footer {
     height: 190px;
     //background-color: rgba(255, 255, 255, 0.26);
     padding-left: 15px;
-    z-index: 99999\8;
+    z-index: 100;
 
     label {
         font-size: 27px;
@@ -1052,6 +1085,16 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 @media (min-width: 640px) { 
 
 
+	a.search-icon.show-hide-search {
+
+		display: none;
+	}
+
+	a.show-hide-search {
+
+		display: block;
+	}
+
 	#nav {
 
 		
@@ -1192,17 +1235,89 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 	}
 
 
+
+
+
+
+
+
+
+
+.page-content {
+
+
+	.content-item {
+
+
+		.breadcrumbs {
+
+			font-size: 18px;
+		}
+
+		h3 {
+
+			font-size: 42px;
+
+		}
+
+		p {
+
+			font-size: 20px;
+		}
+
+	}
+
+	.side-nav {
+
+			padding-top: 10px;
+			padding-left: 30px;
+			padding-bottom: 30px;
+			margin-top: 50px;
+
+			border-top: none;
+			border-left: 1px solid #d2dcdd;
+
+			h3 {
+
+				font-size: 24px;
+
+			}
+
+			a {
+
+				font-size: 20px;
+			}
+		}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 	footer {
 
 		position: relative;
 
+		nav {
+
+			padding-top: 30px;
+		}
+
 		.social-links {
 
-			position: absolute;
+			width: 133px;
+			left: initial;
+			right: 20px;
 			top: 20px;
-			border: 1px solid red;
-
-
+			text-align: right;
 		}
 	}
 
@@ -1212,9 +1327,9 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
 		.btn-give {
 
-			position: absolute;
+			left: initial;
 			top: 0;
-			right: 60px;
+			right: 20px;
 
 		}
 
@@ -1261,6 +1376,61 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
 		}
 	}
+
+
+	footer.africana {
+
+		
+
+		.wrapper {
+
+			width: 1200px;
+			margin: 0 auto;
+			position: relative;
+
+		}
+
+		nav {
+
+			width: 1200px;
+			margin: 0 auto;
+
+		}
+
+		address {
+
+			width: 1200px;
+			margin: 0 auto;
+
+		}
+
+
+		
+	}
+
+	.cul {
+
+		.wrapper {
+
+			width: 1200px;
+			margin: 0 auto;
+			position: relative;
+		}
+
+
+		.btn-give {
+
+			position: absolute;
+			top: 0;
+			left: initial;
+			right: 20px;
+
+
+		}
+
+	}
+
+
 
 }
 
