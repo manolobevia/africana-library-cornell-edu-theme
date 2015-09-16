@@ -103,21 +103,25 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
         <ul class="first-level">
             <li>
-                <a class="active" href="/">Home</a> /
+                <a href="/">Home</a> /
             </li>
 
             <li>
 
-                <a href="http://www.google.com">About</a> /
+                <a class="active" href="/about">About</a> /
 
                 <div class="wrapper">
 
-                    <p class="second-level">Second Level</p>
+                    <ul class="second-level">
 
-                    <ul class="third-level">
-                        <li>Third Level Lorem Ipsum</li>
-                        <li>Third Level Lorem Ipsum</li>
-                        <li>Third Level Lorem Ipsum</li>
+                        <li><a href="/inside">Inside</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="https://www.library.cornell.edu/libraries">Hours</a></li>
+                        <li><a href="/contact">Staff</a></li>
+                        <li><a href="/mission">Mission</a></li>
+                        <li><a href="/history">History</a></li>
+                        <li><a href="library">Library in the life of black people</a></li>
+                        
                     </ul>
                             
                 </div>
@@ -126,29 +130,95 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
             <li>
 
-                <a href="http://www.google.com">Collection</a> /
+                <a href="/collections">Collections</a> /
 
                 <div class="wrapper">
 
-                    <p class="second-level">Second Level</p>
-
-                    <ul class="third-level">
-                        <li>Third Level Lorem Ipsum</li>
-                        <li>Third Level Lorem Ipsum</li>
-                        <li>Third Level Lorem Ipsum</li>
+                    <ul class="second-level">
+                    
+                        <li><a href="/thesis">Theses</a></li>
+                        <li><a href="/africa">Internet Resources</a></li>
+                        <li><a href="//selecteddatabases">Databases</a></li>
+                        <li><a href="/">Reserves</a></li>
+                        <li><a href="/online-lectures">Online lectures</a></li>
+                        <li><a href="/film-collection">Films</a></li>
+                        <li><a href="/">Special Collections</a></li>
+                        <li><a href="/audio">Audio</a></li>
+                        <li><a href="/digital-historical">Historical</a></li>
+                        <li><a href="/microform">Microform</a></li>
+                        <li><a href="/newspapers">Newspaper</a></li>
+                        <li><a href="/">Willard Straight (doc)</a></li>
+                        <li><a href="/">Willard Straight (images)</a></li>
+                        
                     </ul>
                             
                 </div>
 
+                
+
             </li>
 
             <li>
-                <a href="#">Reference & Instruction</a> /
+                <a href="/guides">Guides</a> /
+
+                <div class="wrapper">
+
+                    <ul class="second-level">
+
+                        <li><a href="/courseguides">Course</a></li>
+                        <li><a href="/libguides">Subject</a></li>
+
+                        
+                    </ul>
+                            
+                </div>
             </li>
 
             <li>
-                <a href="#">Africana Center</a>
+                <a href="/reference-and-instruction">Reference & Instruction</a> /
+
+                <div class="wrapper">
+
+                    <ul class="second-level">
+
+                        <li><a href="/requestinstruction">Instruction Request</a></li>
+                        <li><a href="/requestconsultation">Reference Consultation</a></li>
+
+                        
+                    </ul>
+                            
+                </div>
             </li>
+
+
+            <li>
+                <a href="http://http://www.asrc.cornell.edu/">Africana Center</a> /
+            </li>
+
+            <li>
+               <a class="show-hide-search" title="Search our Site" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+           </li>
+
+           <!-- Menu structure 
+           <li>
+
+                <a href="#">Parent Link</a> /
+
+                <div class="wrapper">
+
+                    <p class="second-level">Second Level Link</p>
+
+                    <ul class="third-level">
+
+                        <li>Third Level Link</li>
+                        <li>Third Level Link</li>
+                        <li>Third Level Link</li>
+                        
+                    </ul>
+                            
+                </div>
+
+            </li>-->
 
         </ul>
     </nav>
