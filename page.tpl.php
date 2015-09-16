@@ -192,7 +192,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
             <li>
 
-                <a href="http://www.google.com">Collections</a> /
+                <a href="/collections">Collections</a> /
 
                 <div class="wrapper">
 
@@ -203,12 +203,12 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
                         <li><a href="//selecteddatabases">Databases</a></li>
                         <li><a href="/">Reserves</a></li>
                         <li><a href="/online-lectures">Online lectures</a></li>
-                        <li><a href="/">Films</a></li>
+                        <li><a href="/film-collection">Films</a></li>
                         <li><a href="/">Special Collections</a></li>
                         <li><a href="/audio">Audio</a></li>
-                        <li><a href="/">Historical</a></li>
-                        <li><a href="/">Microform</a></li>
-                        <li><a href="/">Newspaper</a></li>
+                        <li><a href="/digital-historical">Historical</a></li>
+                        <li><a href="/microform">Microform</a></li>
+                        <li><a href="/newspapers">Newspaper</a></li>
                         <li><a href="/">Willard Straight (doc)</a></li>
                         <li><a href="/">Willard Straight (images)</a></li>
                         

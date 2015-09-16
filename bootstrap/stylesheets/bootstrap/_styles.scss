@@ -53,6 +53,16 @@ li {
 	//margin-right: -15px;
 }
 
+.toolbar {
+
+	height: 75px;
+}
+
+.toolbar-menu,
+.toolbar-drawer {
+
+	height: 40px;
+}
 
 @font-face {
 	font-family: "Glyphicons Halflings";
@@ -360,7 +370,7 @@ a.show-hide-search {
 				.wrapper {
 
 					padding: 0;
-				  	width: 200px;
+				  	width: 260px;
 				  	background-color: #fff;
 				  	display: none;
 				  	padding-bottom: 20px;
@@ -372,7 +382,27 @@ a.show-hide-search {
 	    				font-weight: bold;
 	    				margin-bottom: 2px;
 	    				background-color: #fff;
-	    				margin-left: 20px;
+	    				margin-left: 5px;
+	    				font-weight: normal;
+	    				padding-left: 10px;
+	    				padding-bottom: 10px;
+	    				margin-bottom: 0;
+	    				overflow: hidden;
+	    				border-bottom: 1px solid $gold;
+
+	    				li {
+
+	    					clear: both;
+	    					display: block;
+	    					float: left;
+	    					
+	    				}
+	    				
+
+	    				a {
+
+	    					line-height: 24px;
+	    				}
 	    			}
 
 	    			.third-level {
@@ -691,7 +721,7 @@ footer {
     height: 190px;
     background-color: rgba(255, 255, 255, 0.26);
     padding-left: 15px;
-    z-index: 100;
+    z-index: 90;
 
     label {
         font-size: 27px;
