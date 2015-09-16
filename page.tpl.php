@@ -165,7 +165,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
         <ul class="first-level">
             <li>
-                <a href="index.html">Home</a> /
+                <a href="/">Home</a> /
             </li>
 
             <li>

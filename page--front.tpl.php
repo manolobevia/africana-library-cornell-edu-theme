@@ -81,24 +81,133 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
 <header class="home">
 
-    <section class="CUL-branding"></section>
+    <section class="CUL-branding">
 
-    <nav>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+        <a href="http://www.cornell.edu"><img src="<?php print $theme_path; ?>images/cul-africana-logo.svg" /></a>
+
+    </section>
+
+    <section class="CUL-branding-mobile">
+
+        <a href="http://www.cornell.edu"><img src="<?php print $theme_path; ?>images/cu-logo.png" /></a>
+
+    </section>
+
+    <h1><a href="https://www.library.cornell.edu/"></a>Cornell University Library</h1>
+    <h2><a href="/"></a>John Henrik Clarke Africana Library</h2>
+
+
+    <a class="sandwich" href="#" title="Show navigation"></a>
+
+    <nav id="nav">
+
+        <ul class="first-level">
+            <li>
+                <a class="active" href="/">Home</a> /
+            </li>
+
+            <li>
+
+                <a href="http://www.google.com">About</a> /
+
+                <div class="wrapper">
+
+                    <p class="second-level">Second Level</p>
+
+                    <ul class="third-level">
+                        <li>Third Level Lorem Ipsum</li>
+                        <li>Third Level Lorem Ipsum</li>
+                        <li>Third Level Lorem Ipsum</li>
+                    </ul>
+                            
+                </div>
+
+            </li>
+
+            <li>
+
+                <a href="http://www.google.com">Collection</a> /
+
+                <div class="wrapper">
+
+                    <p class="second-level">Second Level</p>
+
+                    <ul class="third-level">
+                        <li>Third Level Lorem Ipsum</li>
+                        <li>Third Level Lorem Ipsum</li>
+                        <li>Third Level Lorem Ipsum</li>
+                    </ul>
+                            
+                </div>
+
+            </li>
+
+            <li>
+                <a href="#">Reference & Instruction</a> /
+            </li>
+
+            <li>
+                <a href="#">Africana Center</a>
+            </li>
+
         </ul>
     </nav>
 
-    <section class="home-search"></section>
 
-    <section class="hero-circle"></section>
-
-    <section class="hours"></section>
 
 </header>
+
+<!-- SEARCH BOX -->       
+<section class="search-home">
+
+    <!-- Pay attention to METHOD -->
+    <form id="search" name="form1" method="get" action="https://search.library.cornell.edu">
+
+        <label for="name">Search <span class="search-filter-selected">Library Catalog</span></label>
+
+
+        <div class="filtered-search">
+
+            <input type="text" class="search-homepage" name="q" value="" id="edit_keys" />
+
+            <!--<select name="search_type" id="search_type" size="1" onChange="chgAction()" class="form-control filter">
+
+                <option value="catalog" selected="selected">Library Catalog</option>
+                <option value="worldcat">WorldCat</option>
+                <option value="site">Site Search</option>
+
+            </select>-->
+
+            <div class="filter-search"><span class="active">Library Catalog</span> <span class="glyphicon glyphicon-chevron-down"></span>
+
+              <ul id="filter-search-nav">
+                  <li role="listitem"><a href="#" title="">Library Catalog</a></li>
+                  <li role="listitem"><a href="#" title="">WorldCat</a></li>
+                  <li role="listitem"><a href="#" title="">Site Search</a></li>
+              </ul>
+
+          </div>
+
+          
+
+            <!--a class="filter" href="#">LAW LIBRARY <span class="caret-icon">></span></a> -->
+            <button type="submit" class="submit-search" href="#">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+
+        </div>
+
+        <ul class="external-search">
+          <li><a href="https://www.library.cornell.edu/myacct">My Library Account</a> / </li>
+          <li><a href="http://guides.library.cornell.edu/onlinelegalresources">Databases</a> / </li>
+          <li><a href="http://guides.library.cornell.edu/LAW">Research Guides</a></li>
+        </ul>
+    </form>         
+    
+</section>
+
+<div class="hero"></div>
+<div class="henrik-clarke"></div>
 
 <section class="row highlights">
 
@@ -109,7 +218,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
             <h1>New Films <i class="fa fa-film"></i></h1>
 
             <figure>
-              <img class="photo-highlight" src="images/highlights.png" alt="" />
+              <img class="photo-highlight" src="<?php print $theme_path; ?>images/highlights.png" alt="" />
             </figure> 
 
             <h2>The book of Negroes</h2>
@@ -131,7 +240,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
             <h1>New Films <i class="fa fa-film"></i></h1>
 
             <figure>
-              <img class="photo-highlight" src="images/highlights.png" alt="" />
+              <img class="photo-highlight" src="<?php print $theme_path; ?>images/highlights.png" alt="" />
             </figure> 
 
             <h2>The book of Negroes</h2>
@@ -153,7 +262,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
             <h1>New Films <i class="fa fa-film"></i></h1>
 
             <figure>
-              <img class="photo-highlight" src="images/highlights.png" alt="" />
+              <img class="photo-highlight" src="<?php print $theme_path; ?>images/highlights.png" alt="" />
             </figure> 
 
             <h2>The book of Negroes</h2>
@@ -205,7 +314,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
         </header>
 
         <figure>
-            <img class="photo-feature" src="images/online-lecture.png" alt="" />
+            <img class="photo-feature" src="<?php print $theme_path; ?>images/online-lecture.png" alt="" />
         </figure> 
 
         <p>RacRace Activism, and Art: A Converstation with Danny Glover," September 25, 2012</p>
@@ -246,7 +355,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
         </header>
 
         <figure>
-            <img class="photo-feature" src="images/africana-studies.png" alt="" />
+            <img class="photo-feature" src="<?php print $theme_path; ?>images/africana-studies.png" alt="" />
         </figure> 
 
         <ul><li>Africana courses</li></ul>
