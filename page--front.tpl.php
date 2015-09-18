@@ -75,7 +75,8 @@
 ?>
 
 <?php
-$theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme/';
+//$theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme/';
+$theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 ?>
 
 
