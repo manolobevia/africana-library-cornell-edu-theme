@@ -75,7 +75,8 @@
 ?>
 
 <?php
-$theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme/';
+//$theme_path = base_path() . 'sites/all/themes/africana_library_cornell_edu_theme/';
+$theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 ?>
 
 <!-- <?php print $theme_path; ?> -->
@@ -113,7 +114,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
               </div>
 
-              
+
 
                 <!--a class="filter" href="#">LAW LIBRARY <span class="caret-icon">></span></a> -->
                 <button type="submit" class="submit-search" href="#">
@@ -127,8 +128,8 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
               <li><a href="http://guides.library.cornell.edu/onlinelegalresources">Databases</a> / </li>
               <li><a href="http://guides.library.cornell.edu/LAW">Research Guides</a></li>
             </ul>
-        </form>         
-    
+        </form>
+
     </div>
 
 </section>
@@ -183,9 +184,9 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
                         <li><a href="/mission">Mission</a></li>
                         <li><a href="/history">History</a></li>
                         <li><a href="library">Library in the life of black people</a></li>
-                        
+
                     </ul>
-                            
+
                 </div>
 
             </li>
@@ -197,7 +198,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
                 <div class="wrapper">
 
                     <ul class="second-level">
-                    
+
                         <li><a href="/thesis">Theses</a></li>
                         <li><a href="/africa">Internet Resources</a></li>
                         <li><a href="//selecteddatabases">Databases</a></li>
@@ -211,12 +212,12 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
                         <li><a href="/newspapers">Newspaper</a></li>
                         <li><a href="/">Willard Straight (doc)</a></li>
                         <li><a href="/">Willard Straight (images)</a></li>
-                        
+
                     </ul>
-                            
+
                 </div>
 
-                
+
 
             </li>
 
@@ -230,9 +231,9 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
                         <li><a href="/courseguides">Course</a></li>
                         <li><a href="/libguides">Subject</a></li>
 
-                        
+
                     </ul>
-                            
+
                 </div>
             </li>
 
@@ -246,9 +247,9 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
                         <li><a href="/requestinstruction">Instruction Request</a></li>
                         <li><a href="/requestconsultation">Reference Consultation</a></li>
 
-                        
+
                     </ul>
-                            
+
                 </div>
             </li>
 
@@ -261,7 +262,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
                <a class="show-hide-search" title="Search our Site" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
            </li>
 
-           <!-- Menu structure 
+           <!-- Menu structure
            <li>
 
                 <a href="#">Parent Link</a> /
@@ -275,9 +276,9 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
                         <li>Third Level Link</li>
                         <li>Third Level Link</li>
                         <li>Third Level Link</li>
-                        
+
                     </ul>
-                            
+
                 </div>
 
             </li>-->
@@ -327,22 +328,22 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 side-nav">
 
         <nav>
-        
+
             <h3>New Film <i class="fa fa-film"></i></h3>
-            <p><a href="#">The book of Negroes</a></p> 
+            <p><a href="#">The book of Negroes</a></p>
 
             <h3>Special Collections <i class="fa fa-film"></i></h3>
-            <p><a href="#">Hip Hop Collection</a></p> 
+            <p><a href="#">Hip Hop Collection</a></p>
 
 
             <h3>New Book <i class="fa fa-film"></i></h3>
-            <p><a href="#">African renaissance and Afro-Arab spring</a></p> 
+            <p><a href="#">African renaissance and Afro-Arab spring</a></p>
 
 
-        </nav>  
+        </nav>
 
 
-         
+
 
     </div>
 
@@ -373,10 +374,10 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
             Cornell University<br />
             310 Triphammer Road<br />
             Ithaca, NY 14853<br />
-            <a href="tel:6072553822">607-255-3822 </a> 
-        </address> 
+            <a href="tel:6072553822">607-255-3822 </a>
+        </address>
 
-        
+
 
         <div class="social-links">
 
@@ -416,12 +417,12 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
     </div>
 </footer>
 
-          
 
 
 
 
-  
 
-		
-        
+
+
+
+

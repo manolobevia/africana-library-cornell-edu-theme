@@ -1,1 +1,1 @@
-# africana-library-cornell-edu-theme
+# africana_library_cornell_edu_theme
