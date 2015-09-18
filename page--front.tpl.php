@@ -75,7 +75,8 @@
 ?>
 
 <?php
-$theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme/';
+//$theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme/';
+$theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 ?>
 
 
@@ -213,9 +214,9 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
                         <li>Third Level Link</li>
                         <li>Third Level Link</li>
                         <li>Third Level Link</li>
-                        
+
                     </ul>
-                            
+
                 </div>
 
             </li>-->
@@ -227,7 +228,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
 </header>
 
-<!-- SEARCH BOX -->       
+<!-- SEARCH BOX -->
 <section class="search-home">
 
     <!-- Pay attention to METHOD -->
@@ -258,7 +259,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
           </div>
 
-          
+
 
             <!--a class="filter" href="#">LAW LIBRARY <span class="caret-icon">></span></a> -->
             <button type="submit" class="submit-search" href="#">
@@ -272,8 +273,8 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
           <li><a href="http://guides.library.cornell.edu/onlinelegalresources">Databases</a> / </li>
           <li><a href="http://guides.library.cornell.edu/LAW">Research Guides</a></li>
         </ul>
-    </form>         
-    
+    </form>
+
 </section>
 
 <div class="hero"></div>
@@ -289,7 +290,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
             <figure>
               <img class="photo-highlight" src="<?php print $theme_path; ?>images/highlights.png" alt="" />
-            </figure> 
+            </figure>
 
             <h2>The book of Negroes</h2>
 
@@ -311,7 +312,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
             <figure>
               <img class="photo-highlight" src="<?php print $theme_path; ?>images/highlights.png" alt="" />
-            </figure> 
+            </figure>
 
             <h2>The book of Negroes</h2>
 
@@ -333,7 +334,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
             <figure>
               <img class="photo-highlight" src="<?php print $theme_path; ?>images/highlights.png" alt="" />
-            </figure> 
+            </figure>
 
             <h2>The book of Negroes</h2>
 
@@ -360,7 +361,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
         </header>
 
         <ul>
-                        
+
             <li>Black Freedom Struggle in the 20th Century</li>
 
             <li>Caribbean Literature</li>
@@ -385,7 +386,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
         <figure>
             <img class="photo-feature" src="<?php print $theme_path; ?>images/online-lecture.png" alt="" />
-        </figure> 
+        </figure>
 
         <p>RacRace Activism, and Art: A Converstation with Danny Glover," September 25, 2012</p>
 
@@ -402,13 +403,13 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
         </header>
 
         <ul>
-                        
+
             <li>Course Guides</li>
             <li>Subject Guides</li>
             <li>African American Studies</li>
             <li>African Studies</li>
             <li>Caribbean Stu</li>
-        
+
          </ul>
 
         <a class="btn-link" href="#" title="View more resources">MORE RESOURCES</a>
@@ -426,7 +427,7 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
         <figure>
             <img class="photo-feature" src="<?php print $theme_path; ?>images/africana-studies.png" alt="" />
-        </figure> 
+        </figure>
 
         <ul><li>Africana courses</li></ul>
 
@@ -465,10 +466,10 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
             Cornell University<br />
             310 Triphammer Road<br />
             Ithaca, NY 14853<br />
-            <a href="tel:6072553822">607-255-3822 </a> 
-        </address> 
+            <a href="tel:6072553822">607-255-3822 </a>
+        </address>
 
-        
+
 
         <div class="social-links">
 
@@ -510,5 +511,5 @@ $theme_path = base_path() . 'sites/all/themes/africana-library-cornell-edu-theme
 
 
 
-        
+
 
