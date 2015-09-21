@@ -14,7 +14,6 @@ $gold: #d3b268;
 }
 */
 
-
 body {
 
 	margin: 0;
@@ -297,12 +296,6 @@ a.show-hide-search {
 		display: none;
 	}
 
-	.front {
-
-		#nav {
-
-		}
-	}
 
 	#nav {
 
@@ -322,6 +315,7 @@ a.show-hide-search {
 			padding-bottom: 0;
 			height: 50px;
 
+
 			li:hover {
 
 			  	a {
@@ -335,7 +329,7 @@ a.show-hide-search {
 
 				  	display: block;
 				  	position: absolute;
-				  	top: 30px;
+				  	top: 25px;
 				  	z-index: 95;
 				}
 			}
@@ -387,8 +381,8 @@ a.show-hide-search {
 	    				padding-left: 10px;
 	    				padding-bottom: 10px;
 	    				margin-bottom: 0;
-	    				overflow: hidden;
-	    				border-bottom: 1px solid $gold;
+	    				//overflow: hidden;
+	    				
 
 	    				li {
 
@@ -585,7 +579,7 @@ a.show-hide-search {
 	}
 }
 
-footer {
+.africana {
 
 	position: relative;
 	font-size: 18px;
@@ -695,6 +689,7 @@ footer {
 
 }
 
+// BG for header in interior pages
 .not-front {
 
 	//background-color: red;
@@ -710,7 +705,11 @@ footer {
 }
 
 
-
+//###### SEARCH HOME
+//###### SEARCH HOME
+//###### SEARCH HOME
+//###### SEARCH HOME
+//###### SEARCH HOME
 
 .search-home {
 
@@ -889,9 +888,9 @@ footer {
     }
 }
 
-
-
-
+//###### SEARCH INTERIOR
+//###### SEARCH INTERIOR
+//###### SEARCH INTERIOR
 //###### SEARCH INTERIOR
 
 .search-slider {
@@ -942,6 +941,7 @@ footer {
         padding-top: 18px;
         font-weight: 400;
         line-height: 1.1em;
+        padding-bottom: 10px;
 
         .search-filter-selected {
 
@@ -993,11 +993,14 @@ footer {
 
             cursor: pointer;
 
+            border: 1px solid green;
+
 
 
             .active {
 
                 display: none;
+
             }
 
             .glyphicon-chevron-down {
@@ -1177,7 +1180,7 @@ footer {
 		font-size: 18px;
 		color: #fff;
 		margin: 0;
-		padding-top: 10px;
+		padding-top: 20px;
 		padding-left: 10px;
 		opacity: .7;
 	}
@@ -1194,6 +1197,7 @@ footer {
 	}
 }
 
+//HEADER BG
 
 .front .home {
 
@@ -1219,10 +1223,10 @@ footer {
 
 }
 
+//HEADER BG
 .not-front .interior {
 
-	//height: 272px;
-	height: 300px;
+	height: 180px;
 
 	//background, background-attachment, 
 	//background-clip, background-image, background-origin, 
@@ -1353,6 +1357,17 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 	
 }
 
+@media (min-width: 556px) { 
+
+	.not-front .interior {
+
+		height: 150px;
+	}
+	
+}
+
+
+
 @media (min-width: 640px) { 
 
 
@@ -1366,14 +1381,9 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 		display: block;
 	}
 
-	#nav {
 
-		
-	}
-
-
-	.home,
-	.interior {
+	.front .home,
+	.not-front .interior {
 
 		height: 272px;
 
@@ -1466,6 +1476,47 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
         
     }
 
+
+
+
+    .search-interior {
+
+    	label {
+
+        	padding-bottom: 10px;
+    	}
+
+		.filtered-search {
+
+			text-align: right;
+			
+			.search-homepage {
+
+                width: 353px;
+            }
+
+		
+		    .filter-search {
+
+		        width: 190px;
+                text-align: left;
+
+
+
+
+		        .active {
+
+		            display: inline;
+                    padding-left: 10px;
+                    line-height: 51px;
+                    vertical-align: top;
+                    padding-right: 0;
+
+
+		        }
+		    }
+		}
+	}
 }
 
 /*
@@ -1482,7 +1533,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
 	#nav {
 
-		top: 45px;
+		//top: 45px;
 	}
 
 }
@@ -1496,7 +1547,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
 		ul.first-level {
 
-			border-bottom: 1px dotted #829da0;
+			//border-bottom: 1px dotted #829da0;
 			padding-top: 15px;
 			display: inline-block;
 		}
@@ -1518,14 +1569,14 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 	.not-front .hero {
 
 		display: block;
-	 	background-size: 300px auto;
+	 	background-size: 260px auto;
 	}	
 
 
 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1334px) {
 
 	.not-front .hero {
 
@@ -1536,6 +1587,9 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
 
 }
+
+
+
 
  /*  
 	___          _    _              
@@ -1625,16 +1679,26 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
 
 
+	.cul {
+
+		position: relative;
+
+		.btn-give {
+
+			left: initial;
+			top: 0;
+			right: 20px;
+
+		}
+
+	}	
+
+}
+
+@media (min-width: 1100px) { 
 
 
-
-
-
-
-
-
-
-	footer {
+	.africana {
 
 		position: relative;
 
@@ -1652,21 +1716,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 			text-align: right;
 		}
 	}
-
-	.cul {
-
-		position: relative;
-
-		.btn-give {
-
-			left: initial;
-			top: 0;
-			right: 20px;
-
-		}
-
-	}	
-
+	
 }
 
 /*
@@ -1719,7 +1769,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 	}
 
 
-	footer.africana {
+	.africana {
 
 		
 

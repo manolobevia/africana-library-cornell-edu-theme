@@ -221,31 +221,27 @@ $( document ).ready(function() {
       
       //Add active class to parent link in megamenus
 
-      /*var loc = window.location.href; // returns the full URL
+      var loc = window.location.href; // returns the full URL
       
       if(/about/.test(loc)) {
         $('#about').addClass('active');
       }
 
-      if(/usingthelibrary/.test(loc)) {
-        $('#usingthelibrary').addClass('active');
+      if(/collecctions/.test(loc)) {
+        $('#collecctions').addClass('active');
       }
 
-      if(/research/.test(loc)) {
-        $('#research').addClass('active');
+      if(/guides/.test(loc)) {
+        $('#guides').addClass('active');
       }
 
-      if(/facultyservices/.test(loc)) {
-        $('#facultyservices').addClass('active');
-      }
-
-      if(/specialcollections/.test(loc)) {
-        $('#specialcollections').addClass('active');
+      if(/reference-and-instruction/.test(loc)) {
+        $('#reference-and-instruction').addClass('active');
       }
 
       if('/'.test(loc)) {
         $('#home').addClass('active');
-      }*/
+      }
 
 
 });

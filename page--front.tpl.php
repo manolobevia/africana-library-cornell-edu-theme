@@ -104,12 +104,12 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
         <ul class="first-level">
             <li>
-                <a href="/">Home</a> /
+                <a id="home" href="/">Home</a> /
             </li>
 
             <li>
 
-                <a class="active" href="/about">About</a> /
+                <a id="about" href="/about">About</a> /
 
                 <div class="wrapper">
 
@@ -122,21 +122,21 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
                         <li><a href="/mission">Mission</a></li>
                         <li><a href="/history">History</a></li>
                         <li><a href="library">Library in the life of black people</a></li>
-                        
+
                     </ul>
-                            
+
                 </div>
 
             </li>
 
             <li>
 
-                <a href="/collections">Collections</a> /
+                <a id="collections" href="/collections">Collections</a> /
 
                 <div class="wrapper">
 
                     <ul class="second-level">
-                    
+
                         <li><a href="/thesis">Theses</a></li>
                         <li><a href="/africa">Internet Resources</a></li>
                         <li><a href="//selecteddatabases">Databases</a></li>
@@ -150,17 +150,17 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
                         <li><a href="/newspapers">Newspaper</a></li>
                         <li><a href="/">Willard Straight (doc)</a></li>
                         <li><a href="/">Willard Straight (images)</a></li>
-                        
+
                     </ul>
-                            
+
                 </div>
 
-                
+
 
             </li>
 
             <li>
-                <a href="/guides">Guides</a> /
+                <a id="guides" href="/guides">Guides</a> /
 
                 <div class="wrapper">
 
@@ -169,14 +169,14 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
                         <li><a href="/courseguides">Course</a></li>
                         <li><a href="/libguides">Subject</a></li>
 
-                        
+
                     </ul>
-                            
+
                 </div>
             </li>
 
             <li>
-                <a href="/reference-and-instruction">Reference & Instruction</a> /
+                <a id="reference-and-instruction" href="/reference-and-instruction">Reference & Instruction</a> /
 
                 <div class="wrapper">
 
@@ -185,22 +185,22 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
                         <li><a href="/requestinstruction">Instruction Request</a></li>
                         <li><a href="/requestconsultation">Reference Consultation</a></li>
 
-                        
+
                     </ul>
-                            
+
                 </div>
             </li>
 
 
             <li>
-                <a href="http://http://www.asrc.cornell.edu/">Africana Center</a> /
+                <a href="http://www.asrc.cornell.edu/">Africana Center</a> /
             </li>
 
             <li>
                <a class="show-hide-search" title="Search our Site" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
            </li>
 
-           <!-- Menu structure 
+           <!-- Menu structure
            <li>
 
                 <a href="#">Parent Link</a> /
@@ -450,12 +450,13 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
         <nav>
 
             <ul>
-                <li><a class="active" href="#">Home / </a></li>
-                <li><a href="#">About / </a></li>
-                <li><a href="#">Collections / </a></li>
-                <li><a href="#">Reference & Instruction / </a></li>
-                <li><a href="#">Africana Center</a> / </li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a id="#home" href="#">Home / </a></li>
+                <li><a id="href="#about" /about">About / </a></li>
+                <li><a id="href="#colecctions" /collections">Collections / </a></li>
+                <li><a id="href="#guides" /guides">Guides / </a></li>
+                <li><a id="href="#reference-and-instruction" /reference-and-instruction">Reference & Instruction / </a></li>
+                <li><a href="http://www.asrc.cornell.edu/">Africana Center</a> / </li>
+                <li><a id="href="#contact" /contact">Contact Us</a></li>
 
             </ul>
 
@@ -473,8 +474,8 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
         <div class="social-links">
 
-            <a href="#"><img src="<?php print $theme_path; ?>images/facebook-icon.png"></a>
-            <a href="#"><img src="<?php print $theme_path; ?>images/share-icon.png"></a>
+            <a href="http://www.facebook.com/africanalibrary"><img src="<?php print $theme_path; ?>images/facebook-icon.png"></a>
+            <a href="http://share.cornell.edu/"><img src="<?php print $theme_path; ?>images/share-icon.png"></a>
 
         </div>
     </div>
@@ -485,26 +486,26 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
     <div class="wrapper">
 
-    <a href="#">CORNELL UNIVERSITY LIBRARIES</a>
+    <a href="https://www.library.cornell.edu/libraries">CORNELL UNIVERSITY LIBRARIES</a>
 
     <nav>
         <p><strong>Library Resources:</strong></p>
         <ul>
-            <li><a href="#">Library Website / </a></li>
-            <li><a href="#">Search / </a></li>
-            <li><a href="#">Catalog / </a></li>
-            <li><a href="#">Articles & Full-Text / </a></li>
-            <li><a href="#">Databases /</a></li>
-            <li><a href="#">E-journal Titles /</a></li>
-            <li><a href="#">Images</a></li>
+            <li><a href="https://www.library.cornell.edu/">Library Website / </a></li>
+            <li><a href="http://search.library.cornell.edu/">Search / </a></li>
+            <li><a href="http://newcatalog.library.cornell.edu/">Catalog / </a></li>
+            <li><a href="http://cornell.summon.serialssolutions.com/">Articles & Full-Text / </a></li>
+            <li><a href="http://newcatalog.library.cornell.edu/databases">Databases /</a></li>
+            <li><a href="http://erms.library.cornell.edu/">E-journal Titles /</a></li>
+            <li><a href="#https://www.library.cornell.edu/visual-resources">Images</a></li>
 
         </ul>
 
     </nav>
 
-    <p>©2015 Cornell University Library / <a href="tel:6072554144">(607) 255-4144 </a>  / <a href="#">Privacy</a></p>
+    <p>©2015 Cornell University Library / <a href="tel:6072554144">(607) 255-4144 </a>  / <a href="https://www.library.cornell.edu/privacy">Privacy</a></p>
 
-    <a class="btn-give" href="#">GIVE TO THE LIBRARY</a>
+    <a class="btn-give" href="http://alumni.library.cornell.edu/content/give-library">GIVE TO THE LIBRARY</a>
 
     </div>
 </footer>
