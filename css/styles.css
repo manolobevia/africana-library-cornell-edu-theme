@@ -5307,7 +5307,8 @@ a.show-hide-search {
   width: 100%;
   display: none;
   background-color: #fff;
-  z-index: 100; }
+  z-index: 100;
+  padding-bottom: 30px; }
   #nav ul.first-level {
     display: block;
     margin: 0;
@@ -5315,18 +5316,20 @@ a.show-hide-search {
     position: relative;
     padding-left: 20px; }
     #nav ul.first-level li:hover a {
-      color: #95d8fe;
       text-decoration: none; }
     #nav ul.first-level li:hover .wrapper {
       display: block;
       height: auto; }
+    #nav ul.first-level li:first-child {
+      margin-top: 20px; }
     #nav ul.first-level li {
       background-color: #fff;
       font-size: 18px;
       display: inline-block;
       width: 100%;
       float: left;
-      padding-right: 10px; }
+      padding-right: 10px;
+      padding-bottom: 10px; }
       #nav ul.first-level li .wrapper {
         padding: 0;
         position: relative;
@@ -5334,8 +5337,13 @@ a.show-hide-search {
         background-color: #fff;
         display: none;
         padding-bottom: 10px;
-        padding-top: 10px;
-        z-index: 95; }
+        z-index: 95;
+        padding-left: 0;
+        overflow: hidden; }
+        #nav ul.first-level li .wrapper ul.second-level {
+          padding-left: 10px; }
+          #nav ul.first-level li .wrapper ul.second-level li:first-child {
+            margin-top: 10px; }
         #nav ul.first-level li .wrapper .row {
           padding: 0;
           width: 90%;
@@ -5352,6 +5360,8 @@ a.show-hide-search {
                 margin-bottom: 2px;
                 margin-left: 10px;
                 padding-left: 10px; }
+                #nav ul.first-level li .wrapper .row div .center .second-level li {
+                  margin-top: 0; }
               #nav ul.first-level li .wrapper .row div .center .third-level {
                 color: #fff;
                 padding-left: 0px;
@@ -5381,6 +5391,8 @@ a.show-hide-search {
       padding: 10px 15px;
       padding-bottom: 0;
       height: 50px; }
+      #nav ul.first-level li:first-child {
+        margin-top: 0; }
       #nav ul.first-level li:hover a {
         color: #d3b268;
         text-decoration: none; }
@@ -5557,7 +5569,10 @@ a.show-hide-search {
     .cul nav p {
       display: inline; }
     .cul nav ul {
-      display: inline; }
+      display: inline;
+      padding-left: 0; }
+      .cul nav ul li {
+        display: inline; }
   .cul .btn-give {
     background-color: #474f57;
     color: #fff;
@@ -5731,8 +5746,7 @@ a.show-hide-search {
       -webkit-border-radius: 0px 3px 3px 0px;
       border-radius: 0px 3px 3px 0px;
       border: 1px solid #d6d6d6;
-      cursor: pointer;
-      border: 1px solid green; }
+      cursor: pointer; }
       .search-interior .filtered-search .filter-search .active {
         display: none; }
       .search-interior .filtered-search .filter-search .glyphicon-chevron-down {
@@ -5857,6 +5871,9 @@ a.show-hide-search {
   padding-top: 20px;
   padding-left: 10px;
   opacity: .7; }
+  .home h1 a,
+  .interior h1 a {
+    color: #fff; }
 .home h2,
 .interior h2 {
   font-size: 30px;
@@ -5864,6 +5881,9 @@ a.show-hide-search {
   margin: 0;
   padding-top: 5px;
   padding-left: 10px; }
+  .home h2 a,
+  .interior h2 a {
+    color: #fff; }
 
 .front .home {
   height: 551px;

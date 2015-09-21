@@ -168,6 +168,7 @@ a.show-hide-search {
 	display: none;
 	background-color: #fff;
 	z-index: 100;
+	padding-bottom: 30px;
 
 	
 
@@ -183,7 +184,6 @@ a.show-hide-search {
 
 		  	a {
 
-		  		color: #95d8fe;
 		  		text-decoration: none;
 		  	}
 
@@ -193,6 +193,11 @@ a.show-hide-search {
 			  	height: auto;
 
 			}
+		}
+
+		li:first-child {
+
+			margin-top: 20px;
 		}
 
 
@@ -205,11 +210,11 @@ a.show-hide-search {
 		  	float: left;
 		  	padding-right: 10px;
 			//cursor: pointer;
+			padding-bottom: 10px;
 
+			a:hover {
 
-			a {
-
-				//color: #fff;
+				
 			}
 
 			.wrapper {
@@ -220,10 +225,21 @@ a.show-hide-search {
 			  	background-color: #fff;
 			  	display: none;
 			  	padding-bottom: 10px;
-			  	padding-top: 10px;
+			  	//padding-top: 10px;
 			  	z-index: 95;
+			  	padding-left: 0;
+			  	overflow: hidden;
 
-			
+
+				ul.second-level {
+
+					padding-left: 10px;
+
+					li:first-child {
+
+						margin-top: 10px;
+					}
+				}
 
 				// SECOND LEVEL LEVEL
 			  	.row {
@@ -241,6 +257,7 @@ a.show-hide-search {
 	    				padding-left: 0;
 
 
+
 	    				.center {
 	    					width: 100%;
 	    					//margin: 0 auto;
@@ -249,10 +266,20 @@ a.show-hide-search {
 	    					.second-level {
 
 			    				color: #fff;
-			    				//font-weight: bold;
 			    				margin-bottom: 2px;
 			    				margin-left: 10px;
 			    				padding-left: 10px;
+
+
+			    				li {
+
+			    					margin-top: 0;
+
+			    					a {
+
+			    						
+			    					}
+			    				}
 			    			}
 
 			    			.third-level {
@@ -315,6 +342,10 @@ a.show-hide-search {
 			padding-bottom: 0;
 			height: 50px;
 
+			li:first-child {
+				
+				margin-top: 0;
+			}
 
 			li:hover {
 
@@ -660,6 +691,8 @@ a.show-hide-search {
 		padding-left: 0;
 		padding-bottom: 15px;
 
+		
+
 
 		p { 
 
@@ -667,7 +700,15 @@ a.show-hide-search {
 		}
 
 		ul {
+			
 			display: inline;
+			padding-left: 0;
+
+			li {
+
+				display: inline;
+
+			}
 
 
 		}
@@ -993,8 +1034,6 @@ a.show-hide-search {
 
             cursor: pointer;
 
-            border: 1px solid green;
-
 
 
             .active {
@@ -1145,6 +1184,9 @@ a.show-hide-search {
 	height: 394px;
 }
 
+///////////////////////
+//////////////////////
+// MOBILE NAV
 
 .home,
 .interior {                                      
@@ -1183,6 +1225,11 @@ a.show-hide-search {
 		padding-top: 20px;
 		padding-left: 10px;
 		opacity: .7;
+
+		a {
+
+			color: #fff;
+		}
 	}
 
 	h2 {
@@ -1192,6 +1239,11 @@ a.show-hide-search {
 		margin: 0;
 		padding-top: 5px;
 		padding-left: 10px;
+
+		a {
+
+			color: #fff;
+		}
 
 
 	}
@@ -1477,8 +1529,6 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     }
 
 
-
-
     .search-interior {
 
     	label {
@@ -1489,7 +1539,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 		.filtered-search {
 
 			text-align: right;
-			
+
 			.search-homepage {
 
                 width: 353px;

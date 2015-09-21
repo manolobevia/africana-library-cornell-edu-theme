@@ -67,16 +67,7 @@ $( document ).ready(function() {
 
 
 
-
-
-
-
-
-
-
-
-
-      /////////////////////////////
+    /////////////////////////////
     // Home search filter
     // Toggle filter select list
 
@@ -198,10 +189,6 @@ $( document ).ready(function() {
 
                 case 'Library Catalog':
                     $(this).attr("action", 'https://search.library.cornell.edu');
-                    break;
-
-                case 'WorldCat':
-                    $(this).attr("action", 'https://cornell.worldcat.org/search?qt=wc_org_cornell');
                     break;
 
                 case 'Site Search':

@@ -142,8 +142,8 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
     </section>
 
-    <h1><a href="https://www.library.cornell.edu/"></a>Cornell University Library</h1>
-    <h2><a href="/"></a>John Henrik Clarke Africana Library</h2>
+    <h1><a href="https://www.library.cornell.edu/">Cornell University Library</a></h1>
+    <h2><a href="/">John Henrik Clarke Africana Library</a></h2>
 
     <!--Inside Africana / Mission / History / Staff / Library in the Life of Black People  / Contact / Hours-->
 
@@ -294,13 +294,13 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
             <?php print render($page['help']); ?>
             <?php endif; ?>
 
-        <!--<nav class="breadcrumbs">
+        <nav class="breadcrumbs">
 
             <ul>
                 <li><a href="#">About / </a></li>
                 <li>Mission</li>
             </ul>
-        </nav>-->
+        </nav>
 
 		<h3><?php print $title ?></h3>
         <?php print render($page['content']); ?>
