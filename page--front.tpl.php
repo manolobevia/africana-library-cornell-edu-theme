@@ -94,8 +94,8 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
     </section>
 
-    <h1><a href="https://www.library.cornell.edu/"></a>Cornell University Library</h1>
-    <h2><a href="/"></a>John Henrik Clarke Africana Library</h2>
+    <h1><a href="https://www.library.cornell.edu/">Cornell University Library</a></h1>
+    <h2><a href="/">John Henrik Clarke Africana Library</a></h2>
 
 
     <a class="sandwich" href="#" title="Show navigation"></a>
@@ -253,7 +253,6 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
               <ul id="filter-search-nav">
                   <li role="listitem"><a href="#" title="">Library Catalog</a></li>
-                  <li role="listitem"><a href="#" title="">WorldCat</a></li>
                   <li role="listitem"><a href="#" title="">Site Search</a></li>
               </ul>
 
@@ -269,9 +268,8 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
         </div>
 
         <ul class="external-search">
-          <li><a href="https://www.library.cornell.edu/myacct">My Library Account</a> / </li>
-          <li><a href="http://guides.library.cornell.edu/onlinelegalresources">Databases</a> / </li>
-          <li><a href="http://guides.library.cornell.edu/LAW">Research Guides</a></li>
+          <li><a href="#">Databases</a> / </li>
+          <li><a href="#">Research Guides</a></li>
         </ul>
     </form>
 
