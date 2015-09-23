@@ -5460,8 +5460,8 @@ a.show-hide-search {
 ****** Responsive Menu **************
 */
 .hours {
-  margin-left: 155px;
-  margin-top: 200px; }
+  margin-left: 10px;
+  margin-top: 250px; }
   .hours a {
     color: #fff; }
   .hours .status {
@@ -5905,7 +5905,7 @@ a.show-hide-search {
     color: #fff; }
 
 .front .home {
-  height: 400px;
+  height: 450px;
   background-position: left top, left top;
   background-repeat: no-repeat, no-repeat;
   background-image: url("../images/bg-interior-motif.png"), url("../images/bg-interior.png");
@@ -5971,7 +5971,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 */
 @media (min-width: 542px) {
   .front .home {
-    height: 360px; }
+    height: 420px; }
 
   .search-home {
     position: absolute;
@@ -5998,7 +5998,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     display: block; }
 
   .front .home {
-    height: 480px; }
+    height: 540px; }
 
   .not-front .interior {
     height: 272px; }
@@ -6200,6 +6200,10 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
   .henrik-clarke {
     background-size: 100px auto; } }
 @media (min-width: 1440px) {
+  .hours {
+    margin-left: 155px;
+    margin-top: 260px; }
+
   .front .hero {
     width: 508px;
     height: 622px;
