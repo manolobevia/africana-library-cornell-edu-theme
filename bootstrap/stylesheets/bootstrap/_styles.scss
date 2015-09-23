@@ -86,6 +86,14 @@ a:hover {
   font-family: "Montserrat";
   color: rgb(255, 255, 255);
 
+  &:hover {
+
+  	background-color: #717a41;
+  	color: rgb(255, 255, 255);
+  	opacity: .8;
+  	text-decoration: none;
+  }
+
 }
 
 .text-link {
@@ -95,7 +103,10 @@ a:hover {
   font-family: "Montserrat";
   color: #717a41;
 
+
 }
+
+
 
 
 /*
@@ -763,7 +774,6 @@ a.show-hide-search {
     height: 190px;
     background-color: rgba(255, 255, 255, 0.26);
     padding-left: 15px;
-    z-index: 100;
 
     label {
 
@@ -1613,6 +1623,24 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 		//top: 45px;
 	}
 
+	.btn-link {
+
+	  display: inline-block;
+
+	  float: left;
+
+
+	}
+	.text-link {
+
+	  display: inline-block;
+	  clear: both;
+	  float: left;
+	  padding-left: 0;
+
+
+	}
+
 }
 
 @media (min-width: 879px) {
@@ -1729,7 +1757,22 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 		}
 	}
 
+.btn-link {
 
+	  display: inline-block;
+
+	  float: none;
+
+
+	}
+	.text-link {
+
+	  display: inline-block;
+	  float: none;
+
+
+
+	}
 
 
 .page-content {
@@ -1800,6 +1843,10 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
 @media (min-width: 1100px) { 
 
+	.text-link {
+
+	 	padding-left: 20px;
+	}
 
 	.africana {
 
@@ -1832,18 +1879,94 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 */
 /* Large devices (large desktops, 1200px and up) */
 
+/*@media (min-width: 1103px) { 
+	
+
+	.btn-link {
+
+	  display: inline-block;
+
+	  float: left;
+
+
+	}
+	.text-link {
+
+	  display: inline-block;
+	  clear: both;
+	  float: left;
+	  padding-left: 0;
+
+
+	}
+}*/
+
+
+@media (min-width: 1190px) { 
+
+	.front .hero {
+
+		background-size: 400px auto;
+		right: -80px;
+
+	}
+
+	.henrik-clarke {
+
+		background-size: 100px auto;
+	}
+}
+	
 @media (min-width: 1200px) { 
 	
 }
 
+@media (min-width: 1370px) { 
+
+	.front .hero {
+
+		background-size: 500px auto;
+		right: -80px;
+
+	}
+
+	.henrik-clarke {
+
+		background-size: 100px auto;
+	}
+}
 
 @media (min-width: 1440px) { 
 
-	
+	.front .hero {
+
+
+		width: 508px;
+		height: 622px;
+		background-size: 460px auto;
+		top: 0;
+		z-index: 200;
+	}
+
+	.henrik-clarke {
+
+		display: block;
+		width: 207px;
+		height: 192px;
+		background-size: 207px auto;
+		z-index: 200;
+	}
 
 	#nav {
 
 		margin-left: 140px;
+	}
+	.search-home {
+
+		margin-left: 150px;
+		top: 230px;
+		//width: 640px;
+		
 	}
 
 	.highlights,
@@ -1928,5 +2051,14 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
 }
 
+@media (min-width: 1550px) { 
+
+.front .hero {
 
 
+		width: 508px;
+		height: 622px;
+		background-size: 508px auto;
+		top: 0;
+	}
+}

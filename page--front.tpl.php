@@ -350,7 +350,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
 <section class="row features">
 
-    <article class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+    <article class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 
         <header>
 
@@ -374,7 +374,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
     </article>
 
-    <article class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+    <article class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 
         <header>
 
@@ -392,7 +392,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
     </article>
 
-    <article class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+    <article class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 
         <header>
 
@@ -415,7 +415,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
     </article>
 
 
-    <article class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+    <article class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 
         <header>
 
