@@ -5459,14 +5459,29 @@ a.show-hide-search {
 /*
 ****** Responsive Menu **************
 */
+.hours {
+  margin-left: 155px;
+  margin-top: 200px; }
+  .hours a {
+    color: #fff; }
+  .hours .status {
+    padding: 5px 7px;
+    background-color: #5a842e;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px; }
+
 .highlights {
-  margin-top: 40px; }
+  margin-top: 40px;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 30px; }
   .highlights article {
-    border-right: 1px solid #ccced0;
+    border-right: 1px solid #e6e6e6;
     padding: 30px;
     padding-top: 0; }
     .highlights article h1 {
-      font-size: 36px;
+      font-size: 35px;
       font-family: "Bree Serif";
       color: #535562;
       line-height: 1.2em;
@@ -5495,9 +5510,11 @@ a.show-hide-search {
 .features {
   margin-top: 40px; }
   .features article {
-    border-right: 1px solid #ccced0;
+    border-right: 1px solid #e6e6e6;
     padding: 30px;
     padding-top: 0; }
+    .features article:last-child {
+      border-right: none; }
     .features article h1 {
       font-size: 28px;
       font-family: "Bree Serif";

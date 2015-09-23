@@ -225,6 +225,19 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
     </nav>
 
 
+    <section class="hours">
+
+        <a title="Today's Hours" href="#">
+
+            <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 
+            TODAY’S HOURS:  
+            <span class="status">OPEN</span> until 6pm
+
+        </a>
+
+    </section>
+
+
 
 </header>
 
@@ -287,7 +300,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
             <h1>New Films <i class="fa fa-film"></i></h1>
 
             <figure>
-              <img class="photo-highlight" src="<?php print $theme_path; ?>images/highlights.png" alt="" />
+              <img class="photo-highlight" src="<?php print $theme_path; ?>images/highlights-1.jpg" alt="" />
             </figure>
 
             <h2>The book of Negroes</h2>
@@ -306,21 +319,19 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
         <header>
 
-            <h1>New Films <i class="fa fa-film"></i></h1>
+            <h1>Special Collections <i class="fa fa-archive"></i></h1>
 
             <figure>
-              <img class="photo-highlight" src="<?php print $theme_path; ?>images/highlights.png" alt="" />
+              <img class="photo-highlight" src="<?php print $theme_path; ?>images/highlights-2.jpg" alt="" />
             </figure>
 
-            <h2>The book of Negroes</h2>
+            <h2>Hip Hop Collection</h2>
 
         </header>
 
-        <p>A universal story of loss, courage and triumph, this recounts the extraordinary journey of Aminata Diallo, an indomitable African woman who survives ...</p>
+        <p>We are pleased to announce the arrival of the Bill Adler Archive with the opening of "Def Jam at 30: Declarations of an Independent - 1984-1985," a website which explores Def Jam’s ground-breaking first year! ...</p>
 
-        <a class="btn-link" href="#" title="View more films">MORE FILMS</a>
-
-        <a class="text-link" href="#" title="Request this film">REQUEST FILM</a>
+        <a class="btn-link" href="#" title="View more films">MORE COLLECTIONS</a>
 
     </article>
 
@@ -328,21 +339,21 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
         <header>
 
-            <h1>New Films <i class="fa fa-film"></i></h1>
+            <h1>New Books <i class="fa fa-book"></i></h1>
 
             <figure>
-              <img class="photo-highlight" src="<?php print $theme_path; ?>images/highlights.png" alt="" />
+              <img class="photo-highlight" src="<?php print $theme_path; ?>images/highlights-3.jpg" alt="" />
             </figure>
 
-            <h2>The book of Negroes</h2>
+            <h2>African renaissance and Afro-Arab spring</h2>
 
         </header>
 
-        <p>A universal story of loss, courage and triumph, this recounts the extraordinary journey of Aminata Diallo, an indomitable African woman who survives ...</p>
+        <p>The hope and despair surrounding the Afro-Arab Spring in North Africa has only begun to be played out in regional and global politics. And the call for an African ...</p>
 
-        <a class="btn-link" href="#" title="View more films">MORE FILMS</a>
+        <a class="btn-link" href="#" title="View more films">MORE BOOKS</a>
 
-        <a class="text-link" href="#" title="Request this film">REQUEST FILM</a>
+        <a class="text-link" href="#" title="Request this film">REQUEST BOOK</a>
 
     </article>
 
@@ -378,7 +389,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
         <header>
 
-            <h1>Selected Databases</h1>
+            <h1>Online Lectures</h1>
 
         </header>
 
