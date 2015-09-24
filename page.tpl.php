@@ -145,10 +145,8 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
     <h1><a href="https://www.library.cornell.edu/">Cornell University Library</a></h1>
     <h2><a href="/">John Henrik Clarke Africana Library</a></h2>
 
-    <!--Inside Africana / Mission / History / Staff / Library in the Life of Black People  / Contact / Hours-->
-
+    
     <a class="search-icon show-hide-search" title="Search our Site" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
-
 
     <a class="sandwich" href="#" title="Show navigation"></a>
 
@@ -191,11 +189,11 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
                         <li><a href="/thesis">Theses</a></li>
                         <li><a href="/africa">Internet Resources</a></li>
-                        <li><a href="//selecteddatabases">Databases</a></li>
+                        <li><a href="/selecteddatabases">Databases</a></li>
                         <li><a href="/">Reserves</a></li>
                         <li><a href="/online-lectures">Online lectures</a></li>
                         <li><a href="/film-collection">Films</a></li>
-                        <li><a href="/">Special Collections</a></li>
+                        <li><a href="/special-collections">Special Collections</a></li>
                         <li><a href="/audio">Audio</a></li>
                         <li><a href="/digital-historical">Historical</a></li>
                         <li><a href="/microform">Microform</a></li>
@@ -218,8 +216,8 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
                     <ul class="second-level">
 
-                        <li><a href="/courseguides">Course</a></li>
-                        <li><a href="/libguides">Subject</a></li>
+                        <li><a href="/courseguides">Course Guides</a></li>
+                        <li><a href="/libguides">Subject Guides</a></li>
 
 
                     </ul>
