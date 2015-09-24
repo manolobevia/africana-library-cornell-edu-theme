@@ -1256,10 +1256,11 @@ a.show-hide-search {
 
 	.CUL-branding {
 
-		img {
+		svg {
 
 			display: none;
-			width: 610px;
+			width: 612px;
+			height: auto;
 			padding-top: 18px;
 			padding-left: 5px;
 		}
@@ -1514,7 +1515,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
 		.CUL-branding {
 
-			img {
+			svg {
 
 				display: block;
 
