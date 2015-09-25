@@ -10,7 +10,6 @@ base theme = bootstrap
 
 regions[navigation]     = 'Navigation'
 regions[header]         = 'Top Bar'
-regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
 regions[sidebar_first]  = 'Primary'
@@ -18,8 +17,13 @@ regions[sidebar_second] = 'Secondary'
 regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
-regions[mega_menu]      = 'Mega menu'
 regions[spotlight]      = 'Spotlight'
+regions[highlighted]    = 'Highlighted'
+regions[highlights]    = 'Highlights'
+regions[features]    = 'Features'
+
+
+
 
 
 
