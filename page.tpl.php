@@ -132,7 +132,10 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
     <section class="CUL-branding">
 
-        <a href="http://www.cornell.edu"><img src="<?php print $theme_path; ?>images/cul-africana-logo.svg" /></a>
+        <!--<a href="http://www.cornell.edu"><img src="<?php print $theme_path; ?>images/cul-africana-logo.svg" /></a>-->
+
+
+       <?php echo file_get_contents($theme_path . "images/cul-africana-logo.svg"); ?>
 
     </section>
 
