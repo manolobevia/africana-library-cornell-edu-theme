@@ -6252,6 +6252,9 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     top: 0;
     left: initial;
     right: 20px; } }
+@media (min-width: 1519px) {
+  .front .hero {
+    right: 0; } }
 @media (min-width: 1550px) {
   .front .hero {
     width: 508px;
