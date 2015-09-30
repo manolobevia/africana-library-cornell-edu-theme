@@ -29,7 +29,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
         <?php print $styles; ?>
 
         <!-- Optional theme -->
-        <link href="<?php print $theme_path; ?>css/styles.css" rel="stylesheet" media="screen">
+        <link href="/<?php print $theme_path; ?>css/styles.css" rel="stylesheet" media="screen">
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         
@@ -57,8 +57,8 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-      <script type="text/javascript" src="<?php print $theme_path; ?>js/doubletaptogo.js"></script>
-    <script type="text/javascript" src="<?php print $theme_path; ?>js/utils.js"></script>
+      <script type="text/javascript" src="/<?php print $theme_path; ?>js/doubletaptogo.js"></script>
+    <script type="text/javascript" src="/<?php print $theme_path; ?>js/utils.js"></script>
     </body>
 </html>
 

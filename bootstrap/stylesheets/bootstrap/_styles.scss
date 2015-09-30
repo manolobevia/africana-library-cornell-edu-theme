@@ -65,6 +65,20 @@ li {
 	height: 40px;
 }
 
+#toolbar-home {
+
+	li.home.first {
+
+		height: 45px;
+	}
+
+}
+
+.homepage.logged-in {
+
+
+}
+
 @font-face {
 	font-family: "Glyphicons Halflings";
 	src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
@@ -107,8 +121,6 @@ a:hover {
 
 
 }
-
-
 
 
 /*
@@ -327,8 +339,6 @@ a.show-hide-search {
 }
 
 
-
-
 @media (min-width: 640px) { 
 
 	a.sandwich {
@@ -336,6 +346,10 @@ a.show-hide-search {
 		display: none;
 	}
 
+	.front #nav ul.first-level li:last-child {
+
+		display: none;
+	}
 
 	#nav {
 
@@ -379,6 +393,8 @@ a.show-hide-search {
 			}
 
 			// FIRST LEVEL
+
+
 			li {
 		
 			  	font-size: 20px;
@@ -1391,7 +1407,17 @@ a.show-hide-search {
 		h3 {
 
 			font-size: 32px;
-			margin-top: 0;
+			margin-top: 30px;
+			margin-bottom: 10px;
+			color: $gold;
+			font-family: "Bree Serif";
+
+		}
+
+		h4 {
+
+			font-size: 28px;
+			margin-top: 24px;
 			margin-bottom: 10px;
 			color: $gold;
 			font-family: "Bree Serif";

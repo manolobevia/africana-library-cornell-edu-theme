@@ -210,12 +210,14 @@ $( document ).ready(function() {
 
       var loc = window.location.href; // returns the full URL
       
+      console.log(window.location.href);
+      
       if(/about/.test(loc)) {
         $('#about').addClass('active');
       }
 
-      if(/collecctions/.test(loc)) {
-        $('#collecctions').addClass('active');
+      if(/collections/.test(loc)) {
+        $('#collections').addClass('active');
       }
 
       if(/guides/.test(loc)) {

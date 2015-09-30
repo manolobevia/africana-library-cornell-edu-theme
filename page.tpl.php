@@ -151,133 +151,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
     
     <a class="search-icon show-hide-search" title="Search our Site" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
 
-    <a class="sandwich" href="#" title="Show navigation"></a>
-
-    <nav id="nav">
-
-        <ul class="first-level">
-            <li>
-                <a id="home" href="/">Home</a> /
-            </li>
-
-            <li>
-
-                <a id="about" href="/about">About</a> /
-
-                <div class="wrapper">
-
-                    <ul class="second-level">
-
-                        <li><a href="/inside">Inside</a></li>
-                        <li><a href="/contact">Contact</a></li>
-                        <li><a href="https://www.library.cornell.edu/libraries">Hours</a></li>
-                        <li><a href="/contact">Staff</a></li>
-                        <li><a href="/mission">Mission</a></li>
-                        <li><a href="/history">History</a></li>
-                        <li><a href="library">Library in the life of black people</a></li>
-
-                    </ul>
-
-                </div>
-
-            </li>
-
-            <li>
-
-                <a id="collections" href="/collections">Collections</a> /
-
-                <div class="wrapper">
-
-                    <ul class="second-level">
-
-                        <li><a href="/thesis">Theses</a></li>
-                        <li><a href="/africa">Internet Resources</a></li>
-                        <li><a href="/selecteddatabases">Databases</a></li>
-                        <li><a href="/">Reserves</a></li>
-                        <li><a href="/online-lectures">Online lectures</a></li>
-                        <li><a href="/film-collection">Films</a></li>
-                        <li><a href="/special-collections">Special Collections</a></li>
-                        <li><a href="/audio">Audio</a></li>
-                        <li><a href="/digital-historical">Historical</a></li>
-                        <li><a href="/microform">Microform</a></li>
-                        <li><a href="/newspapers">Newspaper</a></li>
-                        <li><a href="/">Willard Straight (doc)</a></li>
-                        <li><a href="/">Willard Straight (images)</a></li>
-
-                    </ul>
-
-                </div>
-
-
-
-            </li>
-
-            <li>
-                <a id="guides" href="/guides">Guides</a> /
-
-                <div class="wrapper">
-
-                    <ul class="second-level">
-
-                        <li><a href="/courseguides">Course Guides</a></li>
-                        <li><a href="/libguides">Subject Guides</a></li>
-
-
-                    </ul>
-
-                </div>
-            </li>
-
-            <li>
-                <a id="reference-and-instruction" href="/reference-and-instruction">Reference & Instruction</a> /
-
-                <div class="wrapper">
-
-                    <ul class="second-level">
-
-                        <li><a href="/requestinstruction">Instruction Request</a></li>
-                        <li><a href="/requestconsultation">Reference Consultation</a></li>
-
-
-                    </ul>
-
-                </div>
-            </li>
-
-
-            <li>
-                <a href="http://www.asrc.cornell.edu/">Africana Center</a> /
-            </li>
-
-            <li>
-               <a class="show-hide-search" title="Search our Site" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
-           </li>
-
-           <!-- Menu structure
-           <li>
-
-                <a href="#">Parent Link</a> /
-
-                <div class="wrapper">
-
-                    <p class="second-level">Second Level Link</p>
-
-                    <ul class="third-level">
-
-                        <li>Third Level Link</li>
-                        <li>Third Level Link</li>
-                        <li>Third Level Link</li>
-
-                    </ul>
-
-                </div>
-
-            </li>-->
-
-        </ul>
-    </nav>
-
-
+    <?php print render($page['navigation']); ?>
 
 </header>
 
@@ -287,127 +161,37 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 content-item">
 
-          <?php print $messages; ?>
-          <?php if (!empty($tabs)): ?>
-            <?php print render($tabs); ?>
-          <?php endif; ?>
-          <?php if (!empty($page['help'])): ?>
-            <?php print render($page['help']); ?>
-            <?php endif; ?>
+        <?php print $messages; ?>
 
-        <nav class="breadcrumbs">
+        <?php if (!empty($tabs)): ?>
+            <?php print render($tabs); ?>
+        <?php endif; ?>
+
+        <?php if (!empty($page['help'])): ?>
+            <?php print render($page['help']); ?>
+        <?php endif; ?>
+
+        <!--<nav class="breadcrumbs">
 
             <ul>
                 <li><a href="#">About / </a></li>
                 <li>Mission</li>
             </ul>
-        </nav>
+        </nav>-->
 
 		<h3><?php print $title ?></h3>
+        
         <?php print render($page['content']); ?>
 
-        <!-- H2 for headers P for text -->
     </div>
 
     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 side-nav">
 
-        <nav>
-
-            <h3>New Film <i class="fa fa-film"></i></h3>
-            <p><a href="#">The book of Negroes</a></p>
-
-            <h3>Special Collections <i class="fa fa-film"></i></h3>
-            <p><a href="#">Hip Hop Collection</a></p>
-
-
-            <h3>New Book <i class="fa fa-film"></i></h3>
-            <p><a href="#">African renaissance and Afro-Arab spring</a></p>
-
-
-        </nav>
-
-
-
-
+        <?php print render($page['sidebar']); ?>
+        
     </div>
-
-
 
 </section>
 
-<footer class="africana">
-
-    <div class="wrapper">
-
-        <nav>
-
-            <ul>
-                <li><a id="#home" href="/">Home / </a></li>
-                <li><a id="#about" href="/about">About / </a></li>
-                <li><a id="#colecctions" href="/collections">Collections / </a></li>
-                <li><a id="#guides" href="/guides">Guides / </a></li>
-                <li><a id="#reference-and-instruction" href="/reference-and-instruction">Reference & Instruction / </a></li>
-                <li><a href="http://www.asrc.cornell.edu/">Africana Center</a> / </li>
-                <li><a id="#contact" href="/contact">Contact Us</a></li>
-
-            </ul>
-
-        </nav>
-
-         <address>
-            John Henrik Clarke Africana Library <a href="https://www.google.com/maps/place/310+Triphammer+Rd,+Ithaca,+NY+14850/@42.457342,-76.483041,17z/data=!3m1!4b1!4m2!3m1!1s0x89d08223058b0ccd:0x9f116572ce7f1fa"><span class="glyphicon glyphicon-map-marker"></span></a><br />
-            Cornell University<br />
-            310 Triphammer Road<br />
-            Ithaca, NY 14853<br />
-            <a href="tel:6072553822">607-255-3822 </a>
-        </address>
-
-
-
-        <div class="social-links">
-
-            <a href="http://www.facebook.com/africanalibrary"><img src="<?php print $theme_path; ?>images/facebook-icon.png"></a>
-            <a href="http://share.cornell.edu/"><img src="<?php print $theme_path; ?>images/share-icon.png"></a>
-
-        </div>
-    </div>
-
-</footer>
-
-<footer class="cul">
-
-    <div class="wrapper">
-
-    <a href="https://www.library.cornell.edu/libraries">CORNELL UNIVERSITY LIBRARIES</a>
-
-    <nav>
-        <p><strong>Library Resources:</strong></p>
-        <ul>
-            <li><a href="https://www.library.cornell.edu/">Library Website / </a></li>
-            <li><a href="http://search.library.cornell.edu/">Search / </a></li>
-            <li><a href="http://newcatalog.library.cornell.edu/">Catalog / </a></li>
-            <li><a href="http://cornell.summon.serialssolutions.com/">Articles & Full-Text / </a></li>
-            <li><a href="http://newcatalog.library.cornell.edu/databases">Databases /</a></li>
-            <li><a href="http://erms.library.cornell.edu/">E-journal Titles /</a></li>
-            <li><a href="#https://www.library.cornell.edu/visual-resources">Images</a></li>
-
-        </ul>
-
-    </nav>
-
-    <p>©2015 Cornell University Library / <a href="tel:6072554144">(607) 255-4144 </a>  / <a href="https://www.library.cornell.edu/privacy">Privacy</a></p>
-
-    <a class="btn-give" href="http://alumni.library.cornell.edu/content/give-library">GIVE TO THE LIBRARY</a>
-
-    </div>
-</footer>
-
-
-
-
-
-
-
-
-
+<?php print render($page['footer']); ?>
 
