@@ -1502,20 +1502,23 @@ a.show-hide-search {
 		margin-bottom: 20px;
 		border-bottom: 1px dotted #e6e6e6;
 	}
-	.pager {
+	
+}
+
+.pager {
 
 		text-align: left;
 	}
-}
 
 .pager li > a, 
 .pager li > span {
     
-    background-color: #717a41;
+    	background-color: #717a41;
 	  padding: 8px 20px;
 	  font-size: 15px;
 	  font-family: "Montserrat";
 	  color: rgb(255, 255, 255);
+	  border-radius: 0;
 
 	  &:hover {
 

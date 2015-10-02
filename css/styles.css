@@ -5995,8 +5995,9 @@ a.show-hide-search {
     padding-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dotted #e6e6e6; }
-  .willard .pager {
-    text-align: left; }
+
+.pager {
+  text-align: left; }
 
 .pager li > a,
 .pager li > span {
@@ -6004,7 +6005,8 @@ a.show-hide-search {
   padding: 8px 20px;
   font-size: 15px;
   font-family: "Montserrat";
-  color: white; }
+  color: white;
+  border-radius: 0; }
   .pager li > a:hover,
   .pager li > span:hover {
     background-color: #717a41;
