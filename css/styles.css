@@ -5255,13 +5255,17 @@ a:hover {
   font-family: "Montserrat";
   color: #717a41; }
 
-.more-link a {
+.more-link a,
+.pager-previous a,
+.pager-next a {
   background-color: #717a41;
   padding: 8px 20px;
   font-size: 15px;
   font-family: "Montserrat";
   color: white; }
-  .more-link a:hover {
+  .more-link a:hover,
+  .pager-previous a:hover,
+  .pager-next a:hover {
     background-color: #717a41;
     color: white;
     opacity: .8;
@@ -5985,16 +5989,18 @@ a.show-hide-search {
   margin-top: 20px;
   margin-bottom: 20px; }
   .willard img {
-    width: 60%;
+    width: 80%;
     height: auto;
     border: 7px solid #e6e6e6; }
   .willard p {
-    width: 60%;
+    width: 80%;
     display: inline-block;
     margin-top: 10px;
     padding-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dotted #e6e6e6; }
+  .willard .pager {
+    text-align: left; }
 
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
