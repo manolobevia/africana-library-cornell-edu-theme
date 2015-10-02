@@ -5982,10 +5982,8 @@ a.show-hide-search {
     color: #717a41; }
 
 .willard {
-  width: 80%;
   margin-top: 20px;
-  margin-bottom: 20px;
-  border-bottom: 1px solid #e6e6e6; }
+  margin-bottom: 20px; }
   .willard img {
     width: 80%;
     height: auto; }
@@ -5993,7 +5991,8 @@ a.show-hide-search {
     width: 80%;
     display: inline-block;
     margin-top: 10px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e6e6e6; }
 
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
