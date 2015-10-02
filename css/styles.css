@@ -5986,14 +5986,15 @@ a.show-hide-search {
   margin-bottom: 20px; }
   .willard img {
     width: 80%;
-    height: auto; }
+    height: auto;
+    border: 3px solid #e6e6e6; }
   .willard p {
     width: 80%;
     display: inline-block;
     margin-top: 10px;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    border-bottom: 1px solid #e6e6e6; }
+    border-bottom: 1px dotted #e6e6e6; }
 
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */

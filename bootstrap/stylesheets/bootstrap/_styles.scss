@@ -1490,6 +1490,8 @@ a.show-hide-search {
 
 		width: 80%;
 		height: auto;
+		border: 3px solid #e6e6e6;
+
 	}
 
 	p {
@@ -1498,7 +1500,7 @@ a.show-hide-search {
 		margin-top: 10px;
 		padding-bottom: 20px;
 		margin-bottom: 20px;
-		border-bottom: 1px solid #e6e6e6;
+		border-bottom: 1px dotted #e6e6e6;
 	}
 }
 
