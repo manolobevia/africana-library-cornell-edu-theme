@@ -5975,7 +5975,9 @@ a.show-hide-search {
     width: 80%;
     height: auto; }
   .willard p {
+    width: 80%;
     display: inline-block;
+    margin-top: 10px;
     margin-bottom: 20px; }
 
 /* Extra small devices (phones, up to 480px) */
