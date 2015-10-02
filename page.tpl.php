@@ -141,7 +141,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
     <section class="CUL-branding-mobile">
 
-        <a href="http://www.cornell.edu"><img src="<?php print $theme_path; ?>images/cu-logo.png" /></a>
+        <a href="http://www.cornell.edu"><img src="/<?php print $theme_path; ?>images/cu-logo.png" /></a>
 
     </section>
 
