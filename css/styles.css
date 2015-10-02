@@ -5237,15 +5237,13 @@ body {
 a:hover {
   text-decoration: none; }
 
-.btn-link,
-.more-link {
+.btn-link {
   background-color: #717a41;
   padding: 8px 20px;
   font-size: 15px;
   font-family: "Montserrat";
   color: white; }
-  .btn-link:hover,
-  .more-link:hover {
+  .btn-link:hover {
     background-color: #717a41;
     color: white;
     opacity: .8;
@@ -5256,6 +5254,18 @@ a:hover {
   font-size: 15px;
   font-family: "Montserrat";
   color: #717a41; }
+
+.more-link a {
+  background-color: #717a41;
+  padding: 8px 20px;
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: white; }
+  .more-link a:hover {
+    background-color: #717a41;
+    color: white;
+    opacity: .8;
+    text-decoration: none; }
 
 /*
  ****** Responsive Menu **************
