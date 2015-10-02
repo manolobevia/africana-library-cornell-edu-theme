@@ -5982,7 +5982,9 @@ a.show-hide-search {
     color: #717a41; }
 
 .willard {
+  width: 80%;
   margin-top: 20px;
+  margin-bottom: 20px;
   border-bottom: 1px solid #e6e6e6; }
   .willard img {
     width: 80%;
