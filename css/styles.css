@@ -5255,17 +5255,13 @@ a:hover {
   font-family: "Montserrat";
   color: #717a41; }
 
-.more-link a,
-.pager-previous a,
-.pager-next a {
+.more-link a {
   background-color: #717a41;
   padding: 8px 20px;
   font-size: 15px;
   font-family: "Montserrat";
   color: white; }
-  .more-link a:hover,
-  .pager-previous a:hover,
-  .pager-next a:hover {
+  .more-link a:hover {
     background-color: #717a41;
     color: white;
     opacity: .8;
@@ -6001,6 +5997,20 @@ a.show-hide-search {
     border-bottom: 1px dotted #e6e6e6; }
   .willard .pager {
     text-align: left; }
+
+.pager li > a,
+.pager li > span {
+  background-color: #717a41;
+  padding: 8px 20px;
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: white; }
+  .pager li > a:hover,
+  .pager li > span:hover {
+    background-color: #717a41;
+    color: white;
+    opacity: .8;
+    text-decoration: none; }
 
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */

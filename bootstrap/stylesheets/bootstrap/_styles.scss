@@ -122,9 +122,7 @@ a:hover {
 }
 
 
-.more-link a,
-.pager-previous a,
-.pager-next a {
+.more-link a {
 
   background-color: #717a41;
   padding: 8px 20px;
@@ -1508,6 +1506,24 @@ a.show-hide-search {
 
 		text-align: left;
 	}
+}
+
+.pager li > a, 
+.pager li > span {
+    
+    background-color: #717a41;
+	  padding: 8px 20px;
+	  font-size: 15px;
+	  font-family: "Montserrat";
+	  color: rgb(255, 255, 255);
+
+	  &:hover {
+
+	  	background-color: #717a41;
+	  	color: rgb(255, 255, 255);
+	  	opacity: .8;
+	  	text-decoration: none;
+	  }
 }
 
 
