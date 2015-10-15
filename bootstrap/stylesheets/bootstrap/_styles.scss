@@ -1423,6 +1423,7 @@ a.show-hide-search {
 			}
 		}
 
+
 		h3 {
 
 			font-size: 32px;
@@ -1437,7 +1438,15 @@ a.show-hide-search {
 
 			font-size: 28px;
 			margin-top: 24px;
-			margin-bottom: 10px;
+			margin-bottom: 25px;
+			color: $gold;
+		}
+
+		h5 {
+
+			font-size: 28px;
+			margin-top: 24px;
+			margin-bottom: 25px;
 			color: $gold;
 			font-family: "Bree Serif";
 
@@ -1446,6 +1455,11 @@ a.show-hide-search {
 		p {
 
 			font-size: 1.2em;
+		}
+
+		ul {
+
+			margin-top: 20pxmargin-top: 20px;
 		}
 
 	}
