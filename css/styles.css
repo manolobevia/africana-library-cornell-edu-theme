@@ -5593,7 +5593,7 @@ a.show-hide-search {
   position: relative;
   background-color: #faf6ed;
   width: 100%;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: -20px !important; }
   .cul .wrapper {
     width: 100%;
@@ -5611,7 +5611,7 @@ a.show-hide-search {
       padding-left: 0; }
       .cul nav ul li {
         display: inline;
-        font-size: 18px; }
+        font-size: 16px; }
   .cul .btn-give {
     background-color: #474f57;
     color: #fff;
