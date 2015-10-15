@@ -5571,7 +5571,8 @@ a.show-hide-search {
     .africana nav ul {
       padding-left: 0; }
       .africana nav ul li {
-        display: inline-block; }
+        display: inline-block;
+        font-size: 14px; }
         .africana nav ul li a {
           color: #717a41; }
           .africana nav ul li a.active {
@@ -5609,7 +5610,8 @@ a.show-hide-search {
       display: inline;
       padding-left: 0; }
       .cul nav ul li {
-        display: inline; }
+        display: inline;
+        font-size: 14px; }
   .cul .btn-give {
     background-color: #474f57;
     color: #fff;
