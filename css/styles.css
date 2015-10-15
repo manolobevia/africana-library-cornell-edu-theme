@@ -6154,7 +6154,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     top: -185px; }
 
   .henrik-clarke {
-    display: block;
+    display: none;
     width: 207px;
     height: 192px;
     background-size: 100px auto; } }
@@ -6271,7 +6271,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     z-index: 200; }
 
   .henrik-clarke {
-    display: block;
+    display: none;
     width: 207px;
     height: 192px;
     background-size: 207px auto;
