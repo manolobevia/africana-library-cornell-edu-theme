@@ -5972,6 +5972,8 @@ a.show-hide-search {
     font-family: "Bree Serif"; }
   .page-content .content-item p {
     font-size: 1.2em; }
+  .page-content .content-item p.year {
+    color: #d3b268; }
   .page-content .content-item ul {
     margin-top: 20px; }
     .page-content .content-item ul li {
