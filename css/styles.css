@@ -5960,10 +5960,10 @@ a.show-hide-search {
     color: #d3b268;
     font-family: "Bree Serif"; }
   .page-content .content-item h4 {
-    font-size: 28px;
+    font-size: 30px;
     margin-top: 24px;
     margin-bottom: 25px;
-    color: #d3b268; }
+    color: #535562; }
   .page-content .content-item h5 {
     font-size: 28px;
     margin-top: 24px;
@@ -5974,6 +5974,8 @@ a.show-hide-search {
     font-size: 1.2em; }
   .page-content .content-item ul {
     margin-top: 20px; }
+    .page-content .content-item ul li {
+      margin-bottom: 3px; }
 .page-content .side-nav {
   padding-top: 10px;
   padding-left: 30px;

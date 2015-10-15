@@ -1436,10 +1436,10 @@ a.show-hide-search {
 
 		h4 {
 
-			font-size: 28px;
+			font-size: 30px;
 			margin-top: 24px;
 			margin-bottom: 25px;
-			color: $gold;
+			color: $gray;
 
 
 		}
@@ -1462,6 +1462,11 @@ a.show-hide-search {
 		ul {
 
 			margin-top: 20px;
+
+			li {
+
+				margin-bottom: 3px;
+			}
 		}
 
 	}
