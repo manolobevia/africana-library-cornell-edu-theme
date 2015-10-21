@@ -5486,6 +5486,8 @@ a.show-hide-search {
               -moz-border-radius: 3px;
               border-radius: 3px; 
           }*/ }
+  .hours h2 {
+    display: none; }
   .hours p {
     color: #fff; }
     .hours p span {
