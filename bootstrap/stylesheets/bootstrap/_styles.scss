@@ -526,6 +526,16 @@ a.show-hide-search {
 	p {
 
 		color: #fff;
+
+		span {
+
+			display: none;
+		}
+
+		span.lable {
+
+			display: inline-block;
+		}
 	}
 
 	.status {

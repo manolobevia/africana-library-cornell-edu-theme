@@ -5478,6 +5478,10 @@ a.show-hide-search {
   margin-top: 250px; }
   .hours p {
     color: #fff; }
+    .hours p span {
+      display: none; }
+    .hours p span.lable {
+      display: inline-block; }
   .hours .status {
     padding: 5px 7px;
     background-color: #5a842e;
