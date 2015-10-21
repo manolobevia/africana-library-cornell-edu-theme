@@ -5475,20 +5475,29 @@ a.show-hide-search {
 */
 .hours {
   margin-left: 10px;
-  margin-top: 250px; }
+  margin-top: 250px;
+  	/*.status {
+  
+              padding: 5px 7px;
+              background-color: #5a842e;
+              color: #fff;
+  
+              -webkit-border-radius: 3px;
+              -moz-border-radius: 3px;
+              border-radius: 3px; 
+          }*/ }
   .hours p {
     color: #fff; }
     .hours p span {
       display: none; }
     .hours p span.label {
-      display: inline-block; }
-  .hours .status {
-    padding: 5px 7px;
-    background-color: #5a842e;
-    color: #fff;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px; }
+      display: inline-block;
+      padding: 5px 7px;
+      background-color: #5a842e;
+      color: #fff;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px; }
 
 .highlights {
   margin-top: 40px;

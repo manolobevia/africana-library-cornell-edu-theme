@@ -535,10 +535,17 @@ a.show-hide-search {
 		span.label {
 
 			display: inline-block;
+			padding: 5px 7px;
+            background-color: #5a842e;
+            color: #fff;
+
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px; 
 		}
 	}
 
-	.status {
+	/*.status {
 
             padding: 5px 7px;
             background-color: #5a842e;
@@ -547,7 +554,7 @@ a.show-hide-search {
             -webkit-border-radius: 3px;
             -moz-border-radius: 3px;
             border-radius: 3px; 
-        }
+        }*/
 }
 
 
