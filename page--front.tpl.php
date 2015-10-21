@@ -111,6 +111,9 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
         </a>
 
+        <!-- RESEARVATION HOURS --> 
+        <?php print render($page['hours']); ?>
+        
     </section>
 
 
