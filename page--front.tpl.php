@@ -157,8 +157,8 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
         </div>
 
         <ul class="external-search">
-          <li><a href="#">Databases</a> / </li>
-          <li><a href="#">Research Guides</a></li>
+          <li><a href="/collections/selecteddatabases">Databases</a> / </li>
+          <li><a href="/guides">Research Guides</a></li>
         </ul>
     </form>
 

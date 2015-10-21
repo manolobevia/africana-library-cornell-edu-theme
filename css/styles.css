@@ -5695,7 +5695,8 @@ a.show-hide-search {
         padding-left: 13px;
         height: 51px;
         line-height: 51px;
-        border-bottom: 1px solid #d6d6d6; }
+        border-bottom: 1px solid #d6d6d6;
+        font-size: 18px; }
     .search-home .filtered-search .submit-search {
       float: left;
       vertical-align: text-top;
@@ -5819,7 +5820,8 @@ a.show-hide-search {
         padding-left: 13px;
         height: 51px;
         line-height: 51px;
-        border-bottom: 1px solid #d6d6d6; }
+        border-bottom: 1px solid #d6d6d6;
+        font-size: 18px; }
     .search-interior .filtered-search .submit-search {
       float: left;
       vertical-align: text-top;
