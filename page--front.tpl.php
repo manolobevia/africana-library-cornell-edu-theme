@@ -103,17 +103,9 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
     <section class="hours">
 
-        <a title="Today's Hours" href="#">
-
-            <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 
-            TODAY’S HOURS:  
-            <span class="status">OPEN</span> until 6pm
-
-        </a>
-
         <!-- RESEARVATION HOURS --> 
         <?php print render($page['hours']); ?>
-        
+
     </section>
 
 
