@@ -21,7 +21,7 @@ regions[page_bottom]    = 'Page bottom'
 regions[highlights]    	= 'Highlights'
 regions[features]    	= 'Features'
 regions[sidebar]    	= 'Sidebar'
-
+regions[hours]    		= 'Hours'
 
 
 
