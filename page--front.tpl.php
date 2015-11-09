@@ -177,6 +177,13 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 <?php print render($page['footer']); ?>
 
 
+<section class="row features">
+
+    <?php print render($page['features']); ?> 
+
+</section>
+
+
 
 
 
