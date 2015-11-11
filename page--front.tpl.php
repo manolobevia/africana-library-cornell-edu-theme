@@ -176,9 +176,6 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
     <?php print render($page['features']); ?> 
 
-    <p>###########</p>
-    <?php print render($page['owlcarousel']); ?>
-
 </section>
 
 <?php print render($page['footer']); ?>
