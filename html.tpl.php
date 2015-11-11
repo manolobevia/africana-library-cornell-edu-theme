@@ -32,6 +32,11 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
         <link href="/<?php print $theme_path; ?>css/styles.css" rel="stylesheet" media="screen">
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+        
+        <!-- Owl Carousel -->
+
+        <link rel="stylesheet" href="<?php print $theme_path; ?>/js/owlcarousel/assets/owl.carousel.css">
         
         
 
@@ -57,6 +62,11 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+     <script src="<?php print $theme_path; ?>js/owlcarousel/owl.carousel.min.js"></script>
+
       <script type="text/javascript" src="/<?php print $theme_path; ?>js/doubletaptogo.js"></script>
     <script type="text/javascript" src="/<?php print $theme_path; ?>js/utils.js"></script>
     </body>
