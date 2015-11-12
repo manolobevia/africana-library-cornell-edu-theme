@@ -166,10 +166,6 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
     <?php print render($page['highlights']); ?>  
 
-     <a class="customPrevBtn" href="#"><</a>
-
-    <a class="customNextBtn" href="#">></span></a>
-
 </section>
 
 <section class="row features">
@@ -181,11 +177,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 <?php print render($page['footer']); ?>
 
 
-<section class="row features">
 
-    <?php print render($page['features']); ?> 
-
-</section>
 
 
 
