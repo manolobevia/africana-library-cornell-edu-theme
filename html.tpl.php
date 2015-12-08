@@ -38,7 +38,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
 
-// Add the slick-theme.css if you want default styling
+
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css"/>
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
