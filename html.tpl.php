@@ -69,6 +69,8 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
       <script type="text/javascript" src="/<?php print $theme_path; ?>js/doubletaptogo.js"></script>
 
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
       <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
     <script type="text/javascript" src="/<?php print $theme_path; ?>js/utils.js"></script>
 
