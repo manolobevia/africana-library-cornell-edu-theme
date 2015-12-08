@@ -38,7 +38,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
         <link rel="stylesheet" href="<?php print $theme_path; ?>/js/owlcarousel/assets/owl.carousel.css">
         
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
