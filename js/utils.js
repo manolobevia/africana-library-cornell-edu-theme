@@ -237,7 +237,7 @@ $( document ).ready(function() {
 
 
 
-      $('.highlights').slick({
+      $('.carousel-slick').slick({
         
           dots: true,
           infinite: false,

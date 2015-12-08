@@ -162,11 +162,11 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 <div class="hero"></div>
 <div class="henrik-clarke"></div>
 
-<section class="row highlights">
+<div class="row highlights carousel-slick">
 
     <?php print render($page['highlights']); ?>  
 
-</section>
+</div>
 
 <section class="row features">
 
