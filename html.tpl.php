@@ -36,9 +36,10 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
         <!-- Owl Carousel -->
 
-        <link rel="stylesheet" href="<?php print $theme_path; ?>/js/owlcarousel/assets/owl.carousel.css">
-        
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
+
+// Add the slick-theme.css if you want default styling
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css"/>
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -68,8 +69,6 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
      <script src="<?php print $theme_path; ?>js/owlcarousel/owl.carousel.min.js"></script>
 
       <script type="text/javascript" src="/<?php print $theme_path; ?>js/doubletaptogo.js"></script>
-
-      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
       <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
     <script type="text/javascript" src="/<?php print $theme_path; ?>js/utils.js"></script>
