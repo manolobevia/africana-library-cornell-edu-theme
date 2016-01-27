@@ -208,42 +208,16 @@ $( document ).ready(function() {
       
       //Add active class to parent link in megamenus
 
-      var loc = window.location.href; // returns the full URL
       
-      console.log(window.location.href);
-      
-      if(/about/.test(loc)) {
-        $('#about').addClass('active');
-      }
-
-      if(/collections/.test(loc)) {
-        $('#collections').addClass('active');
-      }
-
-      if(/guides/.test(loc)) {
-        $('#guides').addClass('active');
-      }
-
-      if(/reference-and-instruction/.test(loc)) {
-        $('#reference-and-instruction').addClass('active');
-      }
-
-      if('/'.test(loc)) {
-        $('#home').addClass('active');
-      }
 
 
-      $('#myCarousel').carousel('pause');
-
-
-
-      $('.carousel-slick').slick({
+      $('.region-highlights .view-content').slick({
         
           dots: true,
           infinite: false,
           speed: 300,
-          slidesToShow: 4,
-          slidesToScroll: 4,
+          slidesToShow: 3,
+          slidesToScroll: 1,
           responsive: [
             {
               breakpoint: 1024,
