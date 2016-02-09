@@ -5511,19 +5511,19 @@ a.show-hide-search {
     padding: 30px;
     padding-top: 0; }
     .highlights article .title {
-      font-size: 35px;
+      font-size: 32px;
       font-family: "Bree Serif";
       color: #535562;
       line-height: 1.2em;
       margin-bottom: 15px; }
       .highlights article .title .fa {
         color: #cfa064;
-        font-size: 32px; }
+        font-size: 28px; }
     .highlights article .photo-highlight {
       width: 100% !important;
       height: auto !important; }
     .highlights article .subtitle {
-      font-size: 24px;
+      font-size: 22px;
       font-family: "Montserrat";
       color: #717a41;
       line-height: 1.2; }
