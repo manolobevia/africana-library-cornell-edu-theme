@@ -5510,19 +5510,19 @@ a.show-hide-search {
     border-right: 1px solid #e6e6e6;
     padding: 30px;
     padding-top: 0; }
-    .highlights article h1 {
+    .highlights article .title {
       font-size: 35px;
       font-family: "Bree Serif";
       color: #535562;
       line-height: 1.2em;
       margin-bottom: 15px; }
-      .highlights article h1 .fa {
+      .highlights article .title .fa {
         color: #cfa064;
         font-size: 32px; }
     .highlights article .photo-highlight {
-      width: 100%;
-      height: auto; }
-    .highlights article h2 {
+      width: 100% !important;
+      height: auto !important; }
+    .highlights article .subtitle {
       font-size: 24px;
       font-family: "Montserrat";
       color: #717a41;

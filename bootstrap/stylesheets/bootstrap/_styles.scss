@@ -579,7 +579,7 @@ a.show-hide-search {
 		padding: 30px;
 		padding-top: 0;
 
-		h1 {
+		.title {
 
 		  font-size: 35px;
 		  font-family: "Bree Serif";
@@ -598,12 +598,12 @@ a.show-hide-search {
 
 		  //img-responsive
 
-		  width: 100%;
-		  height: auto;
+		  width: 100% !important;
+		  height: auto !important;
 
 		}
 
-		h2 {
+		.subtitle {
 
 		  font-size: 24px;
 		  font-family: "Montserrat";
