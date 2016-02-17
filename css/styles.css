@@ -5527,6 +5527,8 @@ a.show-hide-search {
       font-family: "Montserrat";
       color: #717a41;
       line-height: 1.2; }
+    .highlights article .subtitle + p {
+      display: none; }
     .highlights article p {
       font-size: 15px;
       font-family: "Montserrat";
