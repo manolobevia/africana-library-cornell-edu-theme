@@ -5534,7 +5534,7 @@ a.show-hide-search {
       line-height: 1.333em;
       padding-bottom: 15px; }
     .highlights article a.btn-link + a {
-      margin-left: 10px; }
+      display: inline-block; }
   .highlights article:first-child {
     padding-left: 40px; }
   .highlights article:last-child {

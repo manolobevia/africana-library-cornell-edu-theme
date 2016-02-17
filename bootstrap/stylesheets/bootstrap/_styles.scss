@@ -624,7 +624,8 @@ a.show-hide-search {
 
 		a.btn-link + a {
 
-			margin-left: 10px;
+			//margin-left: 10px;
+			display: inline-block;
 		}
 
   }
