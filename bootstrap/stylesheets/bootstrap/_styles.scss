@@ -612,7 +612,7 @@ a.show-hide-search {
 
 		}
 
-		.subtitle + p {
+		.blurb {
 
 			display: none;
 		}
@@ -625,6 +625,11 @@ a.show-hide-search {
 		  line-height: 1.333em;
 		  padding-bottom: 15px;
 
+		}
+
+		p:last-child {
+
+			display: none;
 		}
 
   }
