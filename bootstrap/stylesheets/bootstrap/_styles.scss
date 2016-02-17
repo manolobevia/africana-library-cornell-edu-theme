@@ -15,6 +15,13 @@ $gold: #d3b268;
 }
 */
 
+// UI control for carousel on homepage
+.slick-dots li button::before {
+
+	font-size: 15px !important;
+	color: #717a41;
+}
+
 body {
 
 	margin: 0;
