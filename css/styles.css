@@ -5535,7 +5535,7 @@ a.show-hide-search {
       color: #474f57;
       line-height: 1.333em;
       padding-bottom: 15px; }
-    .highlights article p:last-child {
+    .highlights article p:last-of-type {
       display: none;
       height: 10px;
       border: 1px solid red; }
