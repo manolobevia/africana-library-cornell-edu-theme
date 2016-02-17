@@ -5534,7 +5534,8 @@ a.show-hide-search {
       line-height: 1.333em;
       padding-bottom: 15px; }
     .highlights article a.btn-link + a {
-      display: inline-block; }
+      display: block;
+      margin-top: 20px; }
   .highlights article:first-child {
     padding-left: 40px; }
   .highlights article:last-child {
@@ -6155,7 +6156,11 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     display: inline-block;
     clear: both;
     float: left;
-    padding-left: 0; } }
+    padding-left: 0; }
+
+  .highlights article a.btn-link + a {
+    display: inline-block;
+    margin-left: 10px; } }
 @media (min-width: 879px) {
   #nav ul.first-level {
     padding-top: 15px;

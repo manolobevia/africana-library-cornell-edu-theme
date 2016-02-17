@@ -624,8 +624,8 @@ a.show-hide-search {
 
 		a.btn-link + a {
 
-			//margin-left: 10px;
-			display: inline-block;
+			display: block;
+    		margin-top: 20px;
 		}
 
   }
@@ -1839,6 +1839,18 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 	  padding-left: 0;
 
 
+	}
+
+	.highlights {
+
+		article {
+
+				a.btn-link + a {
+
+					display: inline-block ;
+    				margin-left: 10px;
+			}
+		}
 	}
 
 }
