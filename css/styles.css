@@ -6257,6 +6257,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
       padding-top: 30px; }
     .africana .social-links {
       width: 133px;
+      left: auto;
       left: initial;
       right: 20px;
       top: 20px;

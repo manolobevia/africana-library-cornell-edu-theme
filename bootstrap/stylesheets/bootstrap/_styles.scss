@@ -2081,6 +2081,8 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 		.social-links {
 
 			width: 133px;
+			//IE11 Doesn't like initial.
+			left: auto;
 			left: initial;
 			right: 20px;
 			top: 20px;
