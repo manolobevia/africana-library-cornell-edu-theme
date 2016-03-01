@@ -846,6 +846,7 @@ a.show-hide-search {
 		position: absolute;
 		top: 0;
 		left: 30px;
+		width: 221px;
 
 	}
 
@@ -2050,6 +2051,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
 		.btn-give {
 
+			left: auto;
 			left: initial;
 			top: 0;
 			right: 20px;
@@ -2264,7 +2266,10 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
 			position: absolute;
 			top: 0;
+
+			left: auto;
 			left: initial;
+
 			right: 20px;
 
 

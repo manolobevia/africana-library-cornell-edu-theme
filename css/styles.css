@@ -5642,7 +5642,8 @@ a.show-hide-search {
     padding: 8px 20px;
     position: absolute;
     top: 0;
-    left: 30px; }
+    left: 30px;
+    width: 221px; }
 
 .not-front {
   background-position: right 400px;
@@ -6242,6 +6243,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
   .cul {
     position: relative; }
     .cul .btn-give {
+      left: auto;
       left: initial;
       top: 0;
       right: 20px; } }
@@ -6357,6 +6359,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
   .cul .btn-give {
     position: absolute;
     top: 0;
+    left: auto;
     left: initial;
     right: 20px; } }
 @media (min-width: 1519px) {
