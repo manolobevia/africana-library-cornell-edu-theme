@@ -61,13 +61,8 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
-    <script src="<?php print $theme_path; ?>js/owlcarousel/owl.carousel.min.js"></script>
-
     <script type="text/javascript" src="/<?php print $theme_path; ?>js/doubletaptogo.js"></script>
-
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
     <script type="text/javascript" src="/<?php print $theme_path; ?>js/utils.js"></script>
 
