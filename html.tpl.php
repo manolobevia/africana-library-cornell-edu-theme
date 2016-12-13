@@ -21,9 +21,9 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- removing initial-scale=1.0 disables zooming capabilities -->
 
         <!-- Google fonts -->
-          <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
 
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
         
         <?php print $styles; ?>
@@ -37,9 +37,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
         <!-- Owl Carousel -->
 
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
-
-
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css"/>
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css"/>
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -66,11 +64,11 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
-     <script src="<?php print $theme_path; ?>js/owlcarousel/owl.carousel.min.js"></script>
+    <script src="<?php print $theme_path; ?>js/owlcarousel/owl.carousel.min.js"></script>
 
-      <script type="text/javascript" src="/<?php print $theme_path; ?>js/doubletaptogo.js"></script>
+    <script type="text/javascript" src="/<?php print $theme_path; ?>js/doubletaptogo.js"></script>
 
-      <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
     <script type="text/javascript" src="/<?php print $theme_path; ?>js/utils.js"></script>
 
 
